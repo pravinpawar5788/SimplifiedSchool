@@ -1,0 +1,554 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\courses.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\courses.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\status.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\status.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\report_card.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\report_card.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lesson_status1.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\lesson_status1.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\parent_profile.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\parent_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myrect.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\myrect.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_bg.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\request.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\request.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\school_gallery.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\school_gallery.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\link.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\link.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\on_grid_item_click.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\on_grid_item_click.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\announcement_specific.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\announcement_specific.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_photo.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\no_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\topic_review.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\topic_review.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_text_bg.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\edit_text_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\email.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\email.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calender_icon.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\calender_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\markfile.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\markfile.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_progress.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\view_progress.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\class_homework.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\class_homework.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transport.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\transport.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_logo.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\bottom_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\multimedia.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\multimedia.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\attachment.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\attachment.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user_profile.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\user_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\online_multimedia.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\online_multimedia.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\embed_video.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\embed_video.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logout.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\assessment.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\assessment.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\classwork.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\classwork.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\att_summary.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\att_summary.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\negative_buttons.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\negative_buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\student_details.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\student_details.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_school_photo.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\add_school_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\task_calendar.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\task_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\markfile_score.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\markfile_score.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\weekly_report.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\weekly_report.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_bg.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\top_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\progress.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\counter_bg.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\counter_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\addclassphoto.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\addclassphoto.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\profile_circular_border_imageview.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\profile_circular_border_imageview.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\update_student_profile.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\update_student_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\drop.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\drop.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\images.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\images.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\homework.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\homework.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_row_bg_hover.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\list_row_bg_hover.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\attendance_summary.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\attendance_summary.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inner_bg.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\inner_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\help.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\help.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\announcement_group.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\announcement_group.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\announcement.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\announcement.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plan.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\plan.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bus.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\bus.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\study_conent.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\study_conent.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\assignment1.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\assignment1.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\addclassplan.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\addclassplan.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\spinner_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\result.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\result.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\birthday.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\birthday.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\backrectangle.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\backrectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ass_project.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\ass_project.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gallery.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\gallery.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\innerpage_top.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\innerpage_top.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_reference_links.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\view_reference_links.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg_pressed.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\list_item_bg_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_row_selector.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\list_row_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\newsletter.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\newsletter.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\edit.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_row_bg.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\list_row_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_advertisement.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\bottom_advertisement.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\time_table.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\time_table.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\library.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\library.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\class_announcement.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\class_announcement.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\upload.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\upload.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\student_profile.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\student_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\log_out_bg.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\log_out_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\video.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\video.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\approval_multimedia.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\approval_multimedia.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_provider.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\ic_provider.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\content_page.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\content_page.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\positive_buttons.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\positive_buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image_back.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\image_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\project_work.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\project_work.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\emergency.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\emergency.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\attendence.png",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\attendence.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg_normal.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\drawable\\list_item_bg_normal.xml"
+    }
+]

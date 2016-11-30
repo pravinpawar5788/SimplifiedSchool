@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inner_bg"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1.44"
+        android:orientation="vertical"
+        android:paddingRight="40dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical">
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/textView1"
+                android:background="@drawable/edit_text_bg"
+                android:ems="10"
+                android:singleLine="true"
+                android:textSize="@dimen/font_size" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="@dimen/TextView_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/DateTxt" />
+
+            <ImageView
+                android:id="@+id/calender"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/editText1"
+                android:src="@drawable/calender_icon" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="@dimen/TextView_width"
+                android:layout_height="wrap_content"
+                android:text="@string/abc_to" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abc_teacher"
+                android:textSize="@dimen/chekbox_text_size" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abc_student"
+                android:textSize="@dimen/chekbox_text_size" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abc_parent"
+                android:textSize="@dimen/chekbox_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="@dimen/TextView_width"
+                android:layout_height="wrap_content"
+                android:text="@string/abc_subject" />
+
+            <EditText
+                android:id="@+id/editTextSubject"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/edit_text_bg"
+                android:ems="10"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="@dimen/font_size"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="@dimen/TextView_width"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="@string/abc_announcement" />
+
+            <EditText
+                android:id="@+id/editTextAnnounce"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/edit_text_bg"
+                android:ems="10"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"
+                android:textSize="@dimen/font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="@dimen/TextView_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/Attach_FileTxt"
+                android:textSize="@dimen/font_size" />
+
+            <Button
+                android:id="@+id/ChooseBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+
+                android:background="@drawable/positive_buttons"
+                android:text="@string/Choose_FileTxt"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/Button_text_size" />
+
+            <TextView
+                android:id="@+id/textfilename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="@string/No_file_chosenTxt"
+                android:textSize="@dimen/Text_size_footer" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/TextView_width"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/positive_buttons"
+                android:text="@string/abc_submit"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

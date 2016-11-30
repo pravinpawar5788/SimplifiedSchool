@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internal_storage">Internal storage</string>
+    <string name="app_name">SimplifiedSchool</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_email">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="logout">LogOut</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="Username">Username</string>
+    <string name="Logo">Logo</string>
+    <string name="File">File</string>
+    <string name="BackBtn">Back</string>
+    <string name="Password">Password</string>
+    <string name="SignInBtnTxt">SignIn</string>
+    <string name="Forgot_PasswordTxt">Forgot Password?</string>
+    <string name="FooterTxt">Powered by SchoolEduCare</string>
+    <string name="Select_ClassTxt">Select Class:</string>
+    <string name="Select_DivTxt">Select Div:</string>
+    <string name="Choose_Existing_GalleryTxt">Choose Existing Gallery:</string>
+    <string name="Add_PhotosTxt">Add Photos:</string>
+    <string name="Choose_FileTxt">Choose File</string>
+    <string name="No_file_chosenTxt">No file chosen</string>
+    <string name="Add_InfoTxt">Add Info:</string>
+    <string name="SubmitBtnTxt"> Submit </string>
+    <string name="InstructionTxt1">[only .jpeg,.png,.gif files are supported..]</string>
+    <string name="InstructionTxt2">[You can upload 10 galleries per class with max 10 photos each..]</string>
+    <string name="DateTxt">Date:</string>
+    <string name="Select_SubjectTxt">Select Subject:</string>
+    <string name="Assignment_DescriptionTxt">Classwork Description:</string>
+    <string name="Assignment_DescriptionLeb">Classwork Description</string>
+    <string name="Attach_FileTxt">Attach File:</string>
+    <string name="Submission_DateTxt">Given Date:</string>
+    <string name="Submission_DateLeb">Given Date</string>
+    <string name="Calender">Calender</string>
+    <string name="SemisterTxt1">Semister I</string>
+    <string name="SemisterTxt2">Semister II</string>
+    <string name="Roll_NoTxt">Roll No.</string>
+    <string name="abc_A">A</string> 
+    <string name="abc_H">HD</string>
+    <string name="abc_P">P</string>
+    <string name="abc_Present">Present</string>
+    <string name="abc_gotoschool">Go To School</string>
+    <string name="Student_First_NameTxt">Student First Name</string>
+    <string name="Student_Last_NameTxt"> Student Last Name</string>
+    <string name="Attendance_DaysTxt">Attendance Days</string>
+    <string name="No.of_Days_PresentTxt"> No.of Days Present</string>
+    <string name="No.of_Days_AbsentTxt"> No.of Days Absent</string>
+    <string name="No.of_Days_HalfDaysTxt">No.of Days Half Days</string>
+    <string name="Student_ListTxt">Student List</string>
+    <string name="Select_StudentTxt">Select Student</string>
+    <string name="AdminBtnTxt">Admin</string>
+    <string name="ParentBtnTxt">Parent</string>
+    <string name="StudentBtnTxt">Student</string>
+    <string name="StudentNameTxt">Name</string>
+    <string name="ReplyBtnTxt">  Send  </string>
+    <string name="CancelBtnTxt">Cancel</string>
+    <string name="OkBtnTxt">Ok</string>
+    <string name="Gallery_NameTxt">Gallery Name</string>
+    <string name="FirstNameTxt">Member Name   </string>
+    <string name="LastNameTxt">Last Name   </string>
+    <string name="AddressTxt">Address   </string>
+    <string name="Phone_NoTxt">Phone No   </string>
+    <string name="Mobile_NoTxt">Mobile No   </string>
+    <string name="EmailTxt">Email   </string>
+    <string name="QualificationTxt">Qualification   </string>
+    <string name="HobbiesTxt">Hobbies   </string>
+    <string name="Teaching_SubTxt">Teaching Sub</string>
+    <string name="Change_SubjectsTxt">Change Subjects</string>
+    <string name="ModifyBtnTxt">Modify</string>
+    <string name="Create_New_GalleryTxt">Create New Gallery:</string>
+    <string name="AttendenceTxt">  Attendence  </string>
+    <string name="RemarksTxt">Remarks</string>
+    <string name="GenderTxt">Gender   :</string>
+    <string name="Date_of_BirthTxt">Date of Birth   :</string>
+    <string name="ClassTxt">Class   :</string>
+    <string name="DivTxt">Div   :</string>
+    <string name="HouseTxt"> House   :</string>
+    <string name="NationalityTxt">Nationality   :</string>
+    <string name="IllnessTxt">Illness   :</string>
+    <string name="Parent_NameTxt">Parent Name   :</string>
+    <string name="dialog_title">Lexieducare - Alert Message</string>
+    <string name="ok">Ok</string>
+    <string name="remberMe"> Remember me</string>
+    <string name="takephoto">Take Photo</string>
+    <string name="Username_cannot_be_empty">Username cannot be empty </string>
+    <string name="Password_cannot_be_empty">Password cannot be empty </string>
+    <string name="Incorrect_Username_Password">Incorrect Username/Password </string>
+    <string name="please_check_your_internet_connection">Please Check Your Internet Connection</string>
+    
+    
+    <string name="abc_to">To:</string>
+    <string name="abc_teacher">Teacher</string>
+    <string name="abc_student">Student</string>
+    <string name="abc_parent">Parent</string>
+    <string name="abc_subject">Subject:</string>
+    <string name="abc_announcement">Announcement:</string>
+    <string name="abc_submit">Submit</string>
+    <string name="abc_teacher_name">Teacher Name:</string>
+    <string name="abc_select_class">Select Class</string>
+    <string name="abc_gallery_name">Gallery</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Find People</item>
+        <item>Photos</item>
+        <item>Communities</item>
+        <item>Pages</item>
+        <item>What\'s Hot</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <!--
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        -->
+    </array>
+
+</resources>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inner_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Select Class: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spinnerClass"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        
+        android:background="#68C78F"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/Roll_NoTxt"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/StudentNameTxt"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/AttendenceTxt"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/div"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/attendenceH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="100" >
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/abc_P"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/abc_A"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/textViewhd"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/abc_H"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/RemarksTxt"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:scrollbars="vertical"
+        android:weightSum="1" >
+
+        <ListView
+            android:id="@+id/student_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".9" >
+        </ListView>
+
+        <Button
+            android:id="@+id/SubmitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/Button_height"
+            android:layout_marginTop="5dp"
+            android:layout_weight=".1"
+            android:background="@drawable/positive_buttons"
+            android:text="@string/SubmitBtnTxt"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/ModifyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/positive_buttons"
+            android:text="Modify"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

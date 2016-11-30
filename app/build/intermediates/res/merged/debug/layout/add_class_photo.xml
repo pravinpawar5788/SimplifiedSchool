@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/content_page"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@+id/TabHost01"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_weight="1.40"
+        android:background="@drawable/inner_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.40"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:text="@string/Select_ClassTxt"
+                            android:textSize="@dimen/font_size" />
+
+                        <Spinner
+                            android:id="@+id/spinnerClass"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/Spinner_Height"
+                            android:background="@drawable/edit_text_bg"
+                            android:layout_marginLeft="3dp"
+                             >
+                        </Spinner>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="60dp"
+                            android:text="@string/Choose_Existing_GalleryTxt"
+                            android:textSize="@dimen/font_size" />
+
+                        <Spinner
+                            android:id="@+id/spinnerGallery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/Spinner_Height"
+                            android:layout_marginLeft="3dp"
+                            android:background="@drawable/edit_text_bg" >
+                        </Spinner>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:text="@string/Add_PhotosTxt"
+                            android:textSize="@dimen/font_size" />
+
+                        <Button
+                            android:id="@+id/btnChoose"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/Button_height"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/positive_buttons"
+                            android:text="@string/Choose_FileTxt"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/Button_text_size" />
+
+                        <Button
+                            android:id="@+id/btnTakePhoto"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/Button_height"
+                            android:layout_marginLeft="3dp"
+                            android:background="@drawable/positive_buttons"
+                            android:text="@string/takephoto"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/Button_text_size" />
+
+                        <TextView
+                            android:id="@+id/filename"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:text="@string/No_file_chosenTxt"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="@dimen/Text_size_footer" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/btnsubmittab1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/Button_height"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/positive_buttons"
+                            android:text="@string/SubmitBtnTxt"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/Button_text_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/InstructionTxt1"
+                            android:textSize="@dimen/Text_size_footer" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/InstructionTxt2"
+                            android:textSize="@dimen/Text_size_footer" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:text="@string/Select_ClassTxt"
+                            android:textSize="@dimen/font_size" />
+
+                        <Spinner
+                            android:id="@+id/spinnerClasstab2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/Spinner_Height"
+                            android:layout_marginLeft="3dp"
+                            android:spinnerMode="dialog" >
+                        </Spinner>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:text="@string/Add_PhotosTxt"
+                            android:textSize="@dimen/font_size" />
+
+                        <Button
+                            android:id="@+id/btnChoosetab2"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/Button_height"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/positive_buttons"
+                            android:text="@string/Choose_FileTxt"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/Button_text_size" />
+
+                        <Button
+                            android:id="@+id/btnTakePhoto2"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/Button_height"
+                            android:layout_marginLeft="3dp"
+                            android:background="@drawable/positive_buttons"
+                            android:text="@string/takephoto"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/Button_text_size" />
+
+                        <TextView
+                            android:id="@+id/filenametab2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:text="@string/No_file_chosenTxt"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="@dimen/Text_size_footer" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:text="@string/Create_New_GalleryTxt"
+                            android:textSize="@dimen/font_size" />
+
+                        <EditText
+                            android:id="@+id/editTextGallerytaab2"
+                            android:layout_width="@dimen/EditText_width"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:paddingLeft="3dp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/font_size" >
+                        </EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/btnSubmittab2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/Button_height"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/positive_buttons"
+                            android:text="@string/SubmitBtnTxt"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/Button_text_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/InstructionTxt1"
+                            android:textSize="@dimen/Text_size_footer" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/InstructionTxt2"
+                            android:textSize="@dimen/Text_size_footer" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

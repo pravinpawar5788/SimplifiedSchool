@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.simplifiedschooling.app"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:xlargeScreens="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission
+        android:name="com.simplifiedschooling.app.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.simplifiedschooling.app.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".util.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/CustomActionBarTheme">
+        <activity
+            android:name=".SchoolSettingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".AttendanceFragment"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Teacher_Classwork"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ClassLessonPlanStatus"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".EmbedVideo"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".WorkSheets"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+
+        </activity>
+        <activity
+            android:name=".ContentLink"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+
+        </activity>
+        <activity
+            android:name=".Class_Homework"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".AttendanceSummary"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ProfileDetails"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Online_Activity"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Student_details"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name=".TeacherClassGallery"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ClassGalleryView"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.TeacherClassGallery" />
+        </activity>
+        <activity
+            android:name=".ImagePagerActivity"
+            android:screenOrientation="sensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.GalleryView" />
+        </activity>
+        <activity
+            android:name=".ContentForApprovals"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Add_Class_Photo"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".TimeTable"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".SchoolCalendar"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".AllStudentList"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Birthday"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".View_Progress"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".TeacherAnnouncement"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ScholasticReport"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Teacher_ClassAnnouncement"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".CreateLessonPlan"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".TaskCalendar"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".AdminHomeActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".General_announcement_Admin"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.AdminHomeActivity" />
+        </activity>
+        <activity
+            android:name="com.simplifiedschooling.app.ClassGallery_list"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.AdminHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Specific_announcement_Admin"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.AdminHomeActivity" />
+        </activity>
+        <activity
+            android:name=".GalleryList_Admin"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.AdminHomeActivity" />
+        </activity>
+        <activity
+            android:name=".AllStudentList_Admin"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.AdminHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Add_School_Photo"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.AdminHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Admin_SchoolCalendar"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.AdminHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Admin_TaskCalendar"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.AdminHomeActivity" />
+        </activity>
+        <activity
+            android:name=".GalleryView"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.GalleryList_Admin" />
+        </activity>
+        <activity
+            android:name=".ParentHomeActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".ParentSchoolCalendar"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Parent_RequestForLeave"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Parent_Announcement"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".ReferenceVideo"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Child_profile"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Incaseofemergancy"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".TopicforRevision"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+
+        <activity
+            android:name=".WeeklyReport"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Parent_Homework"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Parent_Classwork"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Parent_GalleryList"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Parent_SchoolGalleryList"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Parent_Profile"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".Authorizetocollect"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.ParentHomeActivity" />
+        </activity>
+        <activity
+            android:name=".StudentHomeActivity"
+            android:screenOrientation="landscape"></activity>
+
+        <receiver
+            android:name=".util.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.simplifiedschooling.app" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".util.GCMNotificationIntentService" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.simplifiedschooling.app.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:readPermission="com.simplifiedschooling.app.fileprovider.READ">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

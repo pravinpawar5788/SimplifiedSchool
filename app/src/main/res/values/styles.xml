@@ -1,0 +1,60 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#3B924D</item>
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!-- <item name="android:windowBackground">@drawable/positive_buttons 5500FF</item> -->
+        <item name="colorPrimary">#3B924D</item>
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!--
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#00AAFF</item>
+    </style>
+    -->
+
+    <style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- <item name="android:textColorPrimary">#FFFFFF</item> -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <!-- <item name="titleTextStyle">@style/MyTitleTextStyle</item> -->
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+
+        <!--
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+        -->
+        <item name="android:background">@drawable/innerpage_top</item>
+        <item name="background">@drawable/innerpage_top</item>
+    </style>
+
+    <style name="MyTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <!-- <item name="android:textColor">#FFFFFF</item> -->
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem"></style>
+
+</resources>

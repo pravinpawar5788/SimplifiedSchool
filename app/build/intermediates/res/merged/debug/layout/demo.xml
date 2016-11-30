@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+                    android:id="@+id/tabWeekhomework"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/tabcontainer1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"
+                            android:elevation="5dp"
+                            android:gravity="center_vertical"
+                            android:paddingTop="5dp"
+                            android:weightSum="100" >
+
+                            <TextView
+                                android:id="@+id/textStudentName1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:paddingLeft="3dp"
+                                android:text="Student Name"
+                                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                            <TextView
+                                android:id="@+id/textSubject1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:gravity="center_horizontal"
+                                android:text="Subject"
+                                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                            <TextView
+                                android:id="@+id/textGivenon1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:gravity="center_horizontal"
+                                android:text="Given On"
+                                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                            <TextView
+                                android:id="@+id/textSubmissionDate1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:gravity="center_horizontal"
+                                android:text="Submit On"
+                                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                            <TextView
+                                android:id="@+id/textHomeworkDescription1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="40"
+                                android:gravity="center_horizontal"
+                                android:text="Description"
+                                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                            <TextView
+                                android:id="@+id/textAttachment1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:text=""
+                                android:textAppearance="?android:attr/textAppearanceSmall" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tabline1"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/gray"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tabspace1"
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            android:background="#fff"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <ListView
+                            android:id="@+id/homeworklist1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+                        </ListView>
+                    </LinearLayout>
+                </LinearLayout>
+
+</LinearLayout>

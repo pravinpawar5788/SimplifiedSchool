@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inner_bg"
+    android:orientation="vertical"
+    tools:context=".GalleryList_Admin" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_weight="1.40"
+        android:background="#C5EFF7"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#68C78F"
+            android:gravity="center_vertical"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/textGalleryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="20"
+                android:text="@string/abc_gallery_name"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/font_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- <ListView
+            android:id="@+id/gallerylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/inner_bg" >
+        </ListView> -->
+        <GridView
+            android:id="@+id/gallery"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            
+            android:gravity="center"
+            android:numColumns="3"
+            android:padding="5dp"
+            android:stretchMode="columnWidth" >
+        </GridView>
+    </LinearLayout>
+
+</LinearLayout>

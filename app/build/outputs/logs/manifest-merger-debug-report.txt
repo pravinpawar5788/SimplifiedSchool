@@ -1,0 +1,911 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:2:1-450:12
+	xmlns:android
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:4:5-45
+uses-sdk
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:design:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+	android:targetSdkVersion
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:23:9-51
+supports-screens
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:12:5-17:40
+	android:resizeable
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:16:9-34
+	android:largeScreens
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:14:9-36
+	android:anyDensity
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:13:9-34
+	android:normalScreens
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:15:9-37
+	android:xlargeScreens
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:17:9-37
+uses-feature#android.hardware.camera
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:19:5-21:35
+	android:required
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:21:9-32
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:20:9-47
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:23:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:24:22-64
+permission#com.simplifiedschooling.app.permission.C2D_MESSAGE
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:26:5-28:47
+	android:protectionLevel
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:28:9-44
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:27:9-74
+uses-permission#com.simplifiedschooling.app.permission.C2D_MESSAGE
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:30:5-90
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:30:22-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:31:5-82
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:31:22-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:32:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:32:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:33:5-66
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:33:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:34:5-68
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:34:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:35:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:36:5-81
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:36:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:38:5-75
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:38:22-72
+application
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:40:5-448:19
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:44:9-41
+	android:allowBackup
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:42:9-35
+	android:icon
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:43:9-45
+	android:theme
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:46:9-52
+	android:largeHeap
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:45:9-33
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:41:9-43
+activity#com.simplifiedschooling.app.SchoolSettingActivity
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:47:9-56:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:50:13-50
+	android:label
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:49:13-45
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:48:13-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:51:13-55:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:52:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:54:27-74
+activity#com.simplifiedschooling.app.SplashScreenActivity
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:57:9-59:62
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:59:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:58:13-49
+activity#com.simplifiedschooling.app.MainActivity
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:60:9-63:64
+	android:windowSoftInputMode
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:63:13-52
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:62:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:61:13-41
+activity#com.simplifiedschooling.app.HomeActivity
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:64:9-66:62
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:66:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:65:13-41
+activity#com.simplifiedschooling.app.AttendanceFragment
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:67:9-73:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:69:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:68:13-47
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:70:13-72:76
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:71:17-63
+	android:value
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:72:17-73
+activity#com.simplifiedschooling.app.Teacher_Classwork
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:74:9-80:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:76:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:75:13-46
+activity#com.simplifiedschooling.app.ClassLessonPlanStatus
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:81:9-87:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:83:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:82:13-50
+activity#com.simplifiedschooling.app.EmbedVideo
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:88:9-94:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:90:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:89:13-39
+activity#com.simplifiedschooling.app.WorkSheets
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:95:9-102:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:97:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:96:13-39
+activity#com.simplifiedschooling.app.ContentLink
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:103:9-110:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:105:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:104:13-40
+activity#com.simplifiedschooling.app.Class_Homework
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:111:9-117:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:113:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:112:13-43
+activity#com.simplifiedschooling.app.AttendanceSummary
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:118:9-124:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:120:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:119:13-46
+activity#com.simplifiedschooling.app.ProfileDetails
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:125:9-131:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:127:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:126:13-43
+activity#com.simplifiedschooling.app.Online_Activity
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:132:9-138:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:134:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:133:13-44
+activity#com.simplifiedschooling.app.Student_details
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:139:9-143:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:141:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:140:13-44
+activity#com.simplifiedschooling.app.TeacherClassGallery
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:144:9-150:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:146:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:145:13-48
+activity#com.simplifiedschooling.app.ClassGalleryView
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:151:9-157:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:153:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:152:13-45
+activity#com.simplifiedschooling.app.ImagePagerActivity
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:158:9-164:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:160:13-47
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:159:13-47
+activity#com.simplifiedschooling.app.ContentForApprovals
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:165:9-171:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:167:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:166:13-48
+activity#com.simplifiedschooling.app.Add_Class_Photo
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:172:9-178:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:174:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:173:13-44
+activity#com.simplifiedschooling.app.TimeTable
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:179:9-185:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:181:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:180:13-38
+activity#com.simplifiedschooling.app.SchoolCalendar
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:186:9-192:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:188:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:187:13-43
+activity#com.simplifiedschooling.app.AllStudentList
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:193:9-199:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:195:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:194:13-43
+activity#com.simplifiedschooling.app.Birthday
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:200:9-206:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:202:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:201:13-37
+activity#com.simplifiedschooling.app.View_Progress
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:207:9-213:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:209:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:208:13-42
+activity#com.simplifiedschooling.app.TeacherAnnouncement
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:214:9-220:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:216:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:215:13-48
+activity#com.simplifiedschooling.app.ScholasticReport
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:221:9-227:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:223:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:222:13-45
+activity#com.simplifiedschooling.app.Teacher_ClassAnnouncement
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:228:9-234:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:230:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:229:13-54
+activity#com.simplifiedschooling.app.CreateLessonPlan
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:235:9-241:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:237:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:236:13-45
+activity#com.simplifiedschooling.app.TaskCalendar
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:242:9-248:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:244:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:243:13-41
+activity#com.simplifiedschooling.app.AdminHomeActivity
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:249:9-251:62
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:251:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:250:13-46
+activity#com.simplifiedschooling.app.General_announcement_Admin
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:252:9-258:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:254:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:253:13-55
+activity#com.simplifiedschooling.app.ClassGallery_list
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:259:9-265:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:261:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:260:13-73
+activity#com.simplifiedschooling.app.Specific_announcement_Admin
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:266:9-272:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:268:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:267:13-56
+activity#com.simplifiedschooling.app.GalleryList_Admin
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:273:9-279:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:275:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:274:13-46
+activity#com.simplifiedschooling.app.AllStudentList_Admin
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:280:9-286:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:282:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:281:13-49
+activity#com.simplifiedschooling.app.Add_School_Photo
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:287:9-293:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:289:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:288:13-45
+activity#com.simplifiedschooling.app.Admin_SchoolCalendar
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:294:9-300:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:296:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:295:13-49
+activity#com.simplifiedschooling.app.Admin_TaskCalendar
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:301:9-307:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:303:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:302:13-47
+activity#com.simplifiedschooling.app.GalleryView
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:308:9-314:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:310:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:309:13-40
+activity#com.simplifiedschooling.app.ParentHomeActivity
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:315:9-317:62
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:317:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:316:13-47
+activity#com.simplifiedschooling.app.ParentSchoolCalendar
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:318:9-324:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:320:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:319:13-49
+activity#com.simplifiedschooling.app.Parent_RequestForLeave
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:325:9-331:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:327:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:326:13-51
+activity#com.simplifiedschooling.app.Parent_Announcement
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:332:9-338:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:334:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:333:13-48
+activity#com.simplifiedschooling.app.ReferenceVideo
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:339:9-345:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:341:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:340:13-43
+activity#com.simplifiedschooling.app.Child_profile
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:346:9-352:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:348:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:347:13-42
+activity#com.simplifiedschooling.app.Incaseofemergancy
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:353:9-359:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:355:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:354:13-46
+activity#com.simplifiedschooling.app.TopicforRevision
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:360:9-366:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:362:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:361:13-45
+activity#com.simplifiedschooling.app.WeeklyReport
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:368:9-374:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:370:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:369:13-41
+activity#com.simplifiedschooling.app.Parent_Homework
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:375:9-381:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:377:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:376:13-44
+activity#com.simplifiedschooling.app.Parent_Classwork
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:382:9-388:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:384:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:383:13-45
+activity#com.simplifiedschooling.app.Parent_GalleryList
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:389:9-395:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:391:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:390:13-47
+activity#com.simplifiedschooling.app.Parent_SchoolGalleryList
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:396:9-402:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:398:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:397:13-53
+activity#com.simplifiedschooling.app.Parent_Profile
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:403:9-409:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:405:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:404:13-43
+activity#com.simplifiedschooling.app.Authorizetocollect
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:410:9-416:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:412:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:411:13-47
+activity#com.simplifiedschooling.app.StudentHomeActivity
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:417:9-419:62
+	android:screenOrientation
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:419:13-50
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:418:13-48
+receiver#com.simplifiedschooling.app.util.GcmBroadcastReceiver
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:421:9-430:20
+	android:permission
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:423:13-73
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:422:13-54
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.simplifiedschooling.app
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:424:13-429:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:425:17-81
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:425:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:426:17-86
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:426:25-83
+category#com.simplifiedschooling.app
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:428:17-72
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:428:27-69
+service#com.simplifiedschooling.app.util.GCMNotificationIntentService
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:432:9-70
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:432:18-67
+provider#android.support.v4.content.FileProvider
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:434:9-443:20
+	android:grantUriPermissions
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:438:13-47
+	android:exported
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:437:13-37
+	android:authorities
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:436:13-75
+	android:readPermission
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:439:13-83
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:435:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:440:13-442:64
+	android:resource
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:442:17-51
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:441:17-67
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:445:9-447:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+	android:name
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:446:13-58
+	android:value
+		ADDED from C:\Users\admin\StudioProjects\SimplifiedSchool\app\src\main\AndroidManifest.xml:447:13-66
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:9-22:45
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:21:19-78
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:22:19-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:19-85

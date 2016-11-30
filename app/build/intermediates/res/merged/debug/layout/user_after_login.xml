@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Header_height"
+        android:background="@drawable/top_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/Username"
+            android:textSize="@dimen/font_size" />
+    </RelativeLayout>
+
+    <TabHost
+        android:id="@+id/TabHost01"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_weight="1.40"
+        android:background="#FFF0C9" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.40"
+            android:background="@drawable/icon_bg"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <GridView
+                        android:id="@+id/gridView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:columnWidth="80dp"
+                        android:gravity="center"
+                        android:horizontalSpacing="10dp"
+                        android:numColumns="3"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="25dp" >
+                    </GridView>
+                </LinearLayout>
+                
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <GridView
+                        android:id="@+id/gridView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:columnWidth="80dp"
+                        android:gravity="center"
+                        android:horizontalSpacing="10dp"
+                        android:numColumns="3"
+                        android:paddingTop="20dp"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="25dp" >
+                    </GridView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Footer_height"
+        android:background="@drawable/bottom_advertisement" >
+
+        <Button
+            android:id="@+id/mbuttonLogout"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/Footer_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/positive_buttons"
+            android:text="@string/logout"
+            android:textColor="#FF0000"
+            android:textSize="@dimen/Button_text_size" />
+
+        <Button
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bottom_logo" />
+
+    </RelativeLayout>
+
+</LinearLayout>

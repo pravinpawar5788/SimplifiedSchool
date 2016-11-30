@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="#fff"
+        android:elevation="5dp"
+        android:gravity="center_vertical"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/textStudentName"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:paddingLeft="3dp"
+            android:text="Student Name"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textSubject"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center_horizontal"
+            android:text="Subject"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textGivenon"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center_horizontal"
+            android:text="Given On"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textSubmissionDate"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center_horizontal"
+            android:text="Submit On"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textHomeworkDescription"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:gravity="center_horizontal"
+            android:text="Description"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textAttachment"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="10"
+            android:background="@drawable/attachment"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</LinearLayout>

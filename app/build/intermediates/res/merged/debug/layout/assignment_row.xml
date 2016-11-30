@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+          
+            
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/textAssignment"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+               android:layout_marginLeft="5dp"
+                android:text="@string/Assignment_DescriptionLeb"
+                android:textSize="@dimen/font_size"
+                />
+
+            <TextView
+                android:id="@+id/textFile"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="34"
+                 android:layout_marginLeft="5dp"
+                android:text="@string/File"
+                android:textSize="@dimen/font_size"
+                android:textColor="#3498db" />
+
+            <TextView
+                android:id="@+id/textSubmissionDate"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+                android:gravity="center_horizontal"
+                android:text="@string/Submission_DateLeb"
+                android:textSize="@dimen/font_size"
+                />
+        </LinearLayout>
+
+</LinearLayout>

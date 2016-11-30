@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\xml\\app_tracker.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\xml\\app_tracker.xml"
+    }
+]
