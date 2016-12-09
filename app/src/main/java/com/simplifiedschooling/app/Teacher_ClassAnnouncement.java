@@ -1,17 +1,9 @@
 package com.simplifiedschooling.app;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.Map;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -38,6 +30,15 @@ import com.android.volley.toolbox.StringRequest;
 import com.simplifiedschooling.app.util.AppConfig;
 import com.simplifiedschooling.app.util.AppController;
 import com.simplifiedschooling.app.util.NetworkUtilities;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Teacher_ClassAnnouncement extends ActionBarActivity {
 	private static final String TAG = Teacher_ClassAnnouncement.class
@@ -66,6 +67,9 @@ public class Teacher_ClassAnnouncement extends ActionBarActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setBackgroundDrawable(
+				Drawable.createFromPath(this.getExternalCacheDir()
+						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.teacher_class_announcement);
 		/*
 		 * Bundle b = getIntent().getExtras(); Username =

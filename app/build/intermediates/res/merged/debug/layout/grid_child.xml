@@ -1,23 +1,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/on_grid_item_click"
     android:gravity="center"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <com.android.volley.toolbox.NetworkImageView
         android:id="@+id/thumbnail"
-        android:layout_width="150dp"
-        android:layout_height="120dp"
-        android:layout_weight="1" />
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
 
     <TextView
         android:id="@+id/textViewStudentName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textSize="@dimen/font_size" 
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textSize="@dimen/font_size" />
 
 </LinearLayout>

@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AlertDialog;
@@ -72,7 +73,9 @@ public class AttendanceFragment extends ActionBarActivity {
         super.onCreate(savedInstanceState);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
+        getSupportActionBar().setBackgroundDrawable(
+                Drawable.createFromPath(this.getExternalCacheDir()
+                        .getAbsolutePath() + "/" + "innerpage_top.png"));
         // requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.fragment_attendance);
 

@@ -1,6 +1,7 @@
 package com.simplifiedschooling.app;
 
 import android.app.ProgressDialog;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -59,6 +60,9 @@ public class Parent_Homework extends ActionBarActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setBackgroundDrawable(
+				Drawable.createFromPath(this.getExternalCacheDir()
+						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.parent_homework);
 		User_id = getIntent().getExtras().getString("userid");
 		Role_id = getIntent().getExtras().getString("roleid");
@@ -80,6 +84,18 @@ public class Parent_Homework extends ActionBarActivity {
 		spec2.setContent(R.id.tabArchivehomework);
 		spec2.setIndicator("Archive");
 		myTabHost.addTab(spec2);
+		myTabHost.setOnTabChangedListener(new TabHost.OnTabChangeListener(){
+			@Override
+			public void onTabChanged(String tabId) {
+				Log.e("Tabid:",tabId);
+				/*if(TAB_1_TAG.equals(tabId)) {
+					//destroy earth
+				}
+				if(TAB_2_TAG.equals(tabId)) {
+					//destroy mars
+				}*/
+			}
+		});
 		myTabHost.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -340,6 +356,9 @@ public class Parent_Homework extends ActionBarActivity {
 	}
 
 	protected void GetStudentList() {
+
+
+
 		// TODO Auto-generated method stub
 		String tag_string_req = "StudentList";
 		Constant.studentData.clear();

@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -71,6 +72,9 @@ public class General_announcement_Admin extends ActionBarActivity {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setBackgroundDrawable(
+                Drawable.createFromPath(this.getExternalCacheDir()
+                        .getAbsolutePath() + "/" + "innerpage_top.png"));
         setContentView(R.layout.announcementgen);
         /*
          * Bundle b = getIntent().getExtras(); Username =

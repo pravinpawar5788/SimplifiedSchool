@@ -14,6 +14,7 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -65,6 +66,9 @@ public class AttendanceSummary extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		// requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setBackgroundDrawable(
+				Drawable.createFromPath(this.getExternalCacheDir()
+						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.attendence_summary);
 		User_id = getIntent().getExtras().getString("userid");
 		Role_id = getIntent().getExtras().getString("roleid");

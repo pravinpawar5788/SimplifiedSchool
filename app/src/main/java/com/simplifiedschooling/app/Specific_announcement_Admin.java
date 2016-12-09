@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -97,6 +98,9 @@ public class Specific_announcement_Admin extends ActionBarActivity implements Mu
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setBackgroundDrawable(
+                Drawable.createFromPath(this.getExternalCacheDir()
+                        .getAbsolutePath() + "/" + "innerpage_top.png"));
         setContentView(R.layout.announcementspci);
         userinfo = getSharedPreferences("User", MODE_PRIVATE);
         ftp_url = userinfo.getString("schoolftp", "");

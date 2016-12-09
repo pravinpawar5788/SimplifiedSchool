@@ -3,6 +3,7 @@ package com.simplifiedschooling.app;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -56,6 +57,9 @@ public class Parent_GalleryList extends ActionBarActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setBackgroundDrawable(
+				Drawable.createFromPath(this.getExternalCacheDir()
+						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.class_gallery);
 
 		userinfo = getSharedPreferences("User", MODE_PRIVATE);

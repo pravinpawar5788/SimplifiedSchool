@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -80,6 +81,9 @@ public class Add_Class_Photo extends ActionBarActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setBackgroundDrawable(
+				Drawable.createFromPath(this.getExternalCacheDir()
+						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.add_class_photo);
 		id = getIntent().getExtras().getString("id");
 		userinfo = getSharedPreferences("User", MODE_PRIVATE);

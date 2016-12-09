@@ -1,12 +1,9 @@
 package com.simplifiedschooling.app;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -32,6 +29,10 @@ import com.simplifiedschooling.app.util.AppConfig;
 import com.simplifiedschooling.app.util.AppController;
 import com.simplifiedschooling.app.util.Constant;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class ClassGalleryView extends ActionBarActivity {
 	private static final String TAG = ClassGalleryView.class.getSimpleName();
 	private String BASEURL = AppConfig.BASE_URL;
@@ -52,6 +53,9 @@ public class ClassGalleryView extends ActionBarActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setBackgroundDrawable(
+				Drawable.createFromPath(this.getExternalCacheDir()
+						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.ac_image_gallery);
 		Bundle b = getIntent().getExtras();
 		//Username = b.getString("Username");

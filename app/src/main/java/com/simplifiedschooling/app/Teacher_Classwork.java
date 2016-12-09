@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -111,6 +112,9 @@ Teacher_Classwork extends ActionBarActivity {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setBackgroundDrawable(
+                Drawable.createFromPath(this.getExternalCacheDir()
+                        .getAbsolutePath() + "/" + "innerpage_top.png"));
         setContentView(R.layout.classwork);
         adapter = new ListAdapter(getApplicationContext());
         adapter.notifyDataSetChanged();

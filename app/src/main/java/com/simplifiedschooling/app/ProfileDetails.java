@@ -69,6 +69,9 @@ public class ProfileDetails extends ActionBarActivity {
 		// requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setBackgroundDrawable(
+				Drawable.createFromPath(this.getExternalCacheDir()
+						.getAbsolutePath() + "/" + "innerpage_top.png"));
+		getSupportActionBar().setBackgroundDrawable(
 				Drawable.createFromPath(context.getExternalCacheDir()
 						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		/*

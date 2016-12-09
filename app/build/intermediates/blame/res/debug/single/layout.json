@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\attendence_summary.xml",
-        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\layout\\attendence_summary.xml"
-    },
-    {
         "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\demo.xml",
         "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\layout\\demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\attendence_summary.xml",
+        "source": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\src\\main\\res\\layout\\attendence_summary.xml"
     },
     {
         "merged": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",

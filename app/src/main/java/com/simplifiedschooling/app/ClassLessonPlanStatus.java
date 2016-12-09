@@ -3,6 +3,7 @@ package com.simplifiedschooling.app;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.webkit.WebChromeClient;
@@ -25,6 +26,9 @@ public class ClassLessonPlanStatus extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         //requestWindowFeature(Window.FEATURE_NO_TITLE);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setBackgroundDrawable(
+                Drawable.createFromPath(this.getExternalCacheDir()
+                        .getAbsolutePath() + "/" + "innerpage_top.png"));
         setContentView(R.layout.fragment_home);
         String id = getIntent().getExtras().getString("id");
         web = (WebView) findViewById(R.id.dashBoard);
