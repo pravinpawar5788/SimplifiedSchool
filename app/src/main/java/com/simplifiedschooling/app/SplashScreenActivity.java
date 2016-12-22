@@ -1,7 +1,5 @@
 package com.simplifiedschooling.app;
 
-import java.io.File;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -29,8 +27,9 @@ public class SplashScreenActivity extends Activity {
 		setContentView(R.layout.flashscreen);
 		
 		LinearLayout mainLayout = (LinearLayout) findViewById(R.id.mainlayout);
+
 		mainLayout.setBackgroundDrawable(Drawable.createFromPath(context
-				.getExternalCacheDir().getAbsolutePath()
+				.getExternalFilesDir(null).getAbsolutePath()
 				+ "/"
 				+ "background.png"));
 		

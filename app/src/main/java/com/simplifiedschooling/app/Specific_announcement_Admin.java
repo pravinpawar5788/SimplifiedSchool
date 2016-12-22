@@ -99,7 +99,7 @@ public class Specific_announcement_Admin extends ActionBarActivity implements Mu
         super.onCreate(savedInstanceState);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setBackgroundDrawable(
-                Drawable.createFromPath(this.getExternalCacheDir()
+                Drawable.createFromPath(this.getExternalFilesDir(null)
                         .getAbsolutePath() + "/" + "innerpage_top.png"));
         setContentView(R.layout.announcementspci);
         userinfo = getSharedPreferences("User", MODE_PRIVATE);
@@ -302,9 +302,11 @@ public class Specific_announcement_Admin extends ActionBarActivity implements Mu
         String subStr = subSpec.getText().toString();
         String AnnounceStr = announcementEditSpec.getText().toString();
         String spcificCat = spcat.getSelectedItem().toString();
-        String urlServer = AppConfig.BASE_URL
+        /*String urlServer = AppConfig.BASE_URL
                 + "specificannouncementmobs";
-
+*/
+        String urlServer = AppConfig.CLIENT_URL
+                +"../"+ "test.php";
         RequestParams params = new RequestParams();
         if (spcificCat.equals("Teacher")) {
 
@@ -364,7 +366,7 @@ public class Specific_announcement_Admin extends ActionBarActivity implements Mu
 
         if(path!=null) {
             params.put("image", path);
-            params.put("droot", ftp_url);
+            params.put("droot", "specificannouncementmobs");
 
         }
         if (filenameTxt.getText().toString().trim()
@@ -372,7 +374,7 @@ public class Specific_announcement_Admin extends ActionBarActivity implements Mu
                 || filenameTxt.getText().toString().trim().equals("")) {
         }else {
             try {
-                params.put("imagepath", new File(realpath));
+                params.put("uploadedfile", new File(realpath));
             } catch (FileNotFoundException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
@@ -393,8 +395,8 @@ public class Specific_announcement_Admin extends ActionBarActivity implements Mu
                 mt("Successfully Posted");
                 path = null;
                 filenameTxt.setText(path);
-                // Toast.makeText(getBaseContext(), arg0,
-                // Toast.LENGTH_LONG).show();
+                 Toast.makeText(getBaseContext(), "Send Successfully",
+                 Toast.LENGTH_LONG).show();
 
             }
 
@@ -562,17 +564,20 @@ public class Specific_announcement_Admin extends ActionBarActivity implements Mu
 
                                 calssList.add(class_name);
                                 calssIdList.add(calssId);
+                       if(calssList.size()>0) {
+                           ArrayAdapter<String> classlistadapter = new ArrayAdapter<String>(
+                                   Specific_announcement_Admin.this,
+                                   android.R.layout.simple_spinner_item,
+                                   calssList);
 
-                                ArrayAdapter<String> classlistadapter = new ArrayAdapter<String>(
-                                        Specific_announcement_Admin.this,
-                                        android.R.layout.simple_spinner_item,
-                                        calssList);
+                           spclass.setAdapter(classlistadapter);
+                           spclass.setSelection(0);
 
-                                spclass.setAdapter(classlistadapter);
-                                spclass.setSelection(0);
-
-                                classlistadapter.notifyDataSetChanged();
-
+                           classlistadapter.notifyDataSetChanged();
+                       }else{
+                           Toast.makeText(getApplicationContext(),
+                                   "There is no class", Toast.LENGTH_LONG).show();
+                       }
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -635,10 +640,14 @@ public class Specific_announcement_Admin extends ActionBarActivity implements Mu
                                         Specific_announcement_Admin.this,
 										android.R.layout.simple_spinner_item,
 										teacherList);*/
-                            spteacher.setItems(teacherList);
-                            //teacherlistadapter.notifyDataSetChanged();
-                            spteacher.setSelection(new int[]{});
-
+                            if(teacherList.size()>0) {
+                                spteacher.setItems(teacherList);
+                                //teacherlistadapter.notifyDataSetChanged();
+                                spteacher.setSelection(new int[]{});
+                            }else{
+                                Toast.makeText(getApplicationContext(),
+                                        "There is no data", Toast.LENGTH_LONG).show();
+                            }
 
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -782,11 +791,14 @@ public class Specific_announcement_Admin extends ActionBarActivity implements Mu
                                 divlistadapter.notifyDataSetChanged();
                                 spstudent.setSelection(0);
 */
-
-                                spstudent.setItems(studentList);
-                                //teacherlistadapter.notifyDataSetChanged();
-                                spstudent.setSelection(new int[]{});
-
+                                if(studentList.size()>0) {
+                                    spstudent.setItems(studentList);
+                                    //teacherlistadapter.notifyDataSetChanged();
+                                    spstudent.setSelection(new int[]{});
+                                }else{
+                                    Toast.makeText(getApplicationContext(),
+                                            "There is no data", Toast.LENGTH_LONG).show();
+                                }
 
                             }
                         } catch (JSONException e) {

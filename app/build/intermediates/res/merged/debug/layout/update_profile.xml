@@ -1,88 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
 
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
 
-        <LinearLayout
-            android:id="@+id/container"
-            android:layout_width="match_parent"
-            android:layout_height="fill_parent"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
+        android:background="@drawable/content_page"
+        android:orientation="horizontal"
+        android:paddingTop="40dp"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:id="@+id/sideview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
 
-            android:background="@drawable/edit_text_bg"
-            android:orientation="horizontal"
-            android:paddingTop="40dp"
-            android:scrollbars="vertical">
+            android:orientation="vertical">
 
-            <RelativeLayout
-                android:id="@+id/sideview"
+            <com.simplifiedschooling.app.util.RondedImageView
+                android:id="@+id/imageuser"
+                android:layout_width="@dimen/user_image_height"
+                android:layout_height="@dimen/user_image_width"
+
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/user" />
+
+            <!--  <TextView
+                  android:id="@+id/tname"
+                  android:layout_width="@dimen/TextView_width"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/imageuser"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="10dp"
+                  android:background="#68C78F"
+                  android:gravity="center"
+                  android:text="@string/Username"
+                  android:textColor="#fff"
+                  android:textSize="@dimen/font_size"
+                  android:textStyle="bold" />
+-->
+            <TextView
+                android:id="@+id/filename"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:layout_marginLeft="10dp"
-                android:layout_weight="0.30"
+                android:layout_below="@+id/imageuser"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="@string/No_file_chosenTxt"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="@dimen/font_size" />
 
-                android:orientation="vertical">
+            <Button
+                android:id="@+id/btnChoose"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@+id/filename"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/positive_buttons"
+                android:text="@string/Choose_FileTxt"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/font_size" />
+        </RelativeLayout>
 
-                <com.simplifiedschooling.app.util.RondedImageView
-                    android:id="@+id/imageuser"
-                    android:layout_width="@dimen/user_image_height"
-                    android:layout_height="@dimen/user_image_width"
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:fillViewport="false"
+            android:scrollbars="vertical">
 
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/user" />
-
-                <!--  <TextView
-                      android:id="@+id/tname"
-                      android:layout_width="@dimen/TextView_width"
-                      android:layout_height="wrap_content"
-                      android:layout_below="@+id/imageuser"
-                      android:layout_centerHorizontal="true"
-                      android:layout_marginTop="10dp"
-                      android:background="#68C78F"
-                      android:gravity="center"
-                      android:text="@string/Username"
-                      android:textColor="#fff"
-                      android:textSize="@dimen/font_size"
-                      android:textStyle="bold" />
-  -->
-                <TextView
-                    android:id="@+id/filename"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/imageuser"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="5dp"
-                    android:text="@string/No_file_chosenTxt"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="@dimen/Text_size_footer" />
-
-                <Button
-                    android:id="@+id/btnChoose"
-                    style="?android:attr/buttonStyleSmall"
-                    android:layout_width="wrap_content"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/filename"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="5dp"
-                    android:background="@drawable/positive_buttons"
-                    android:text="@string/Choose_FileTxt"
-                    android:textColor="#ffffff"
-                    android:textSize="@dimen/Button_text_size" />
-            </RelativeLayout>
 
             <LinearLayout
                 android:id="@+id/data"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_margin="20dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="0.7"
+                android:layout_margin="20dp"
+
                 android:orientation="vertical"
                 android:scrollbars="vertical"
 
@@ -90,12 +98,12 @@
 
                 <TextView
                     android:id="@+id/textview122"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
-                    android:text="Details"
+                    android:layout_marginTop="400dp"
+                    android:text="@string/details"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="@dimen/Text_size_footer" />
+                    android:textSize="@dimen/font_size" />
 
                 <android.support.design.widget.TextInputLayout
                     android:id="@+id/input_layout_name"
@@ -111,11 +119,11 @@
                         android:enabled="false"
                         android:hint="@string/FirstNameTxt"
                         android:inputType="text"
-
                         android:padding="10dp"
                         android:singleLine="true"
                         android:textColor="@color/input_login"
-                        android:textColorHint="@color/input_login_hint" />
+                        android:textColorHint="@color/input_login_hint"
+                        android:textSize="@dimen/font_size" />
                 </android.support.design.widget.TextInputLayout>
                 <!--<LinearLayout
                     android:layout_width="match_parent"
@@ -155,6 +163,7 @@
                         android:hint="@string/AddressTxt"
                         android:inputType="text"
                         android:padding="10dp"
+                        android:textSize="@dimen/font_size"
                         android:singleLine="true"
                         android:textColor="@color/input_login"
                         android:textColorHint="@color/input_login_hint" />
@@ -174,9 +183,12 @@
                         android:hint="@string/Mobile_NoTxt"
                         android:inputType="phone"
                         android:padding="10dp"
+                        android:textSize="@dimen/font_size"
                         android:singleLine="true"
                         android:textColor="@color/input_login"
-                        android:textColorHint="@color/input_login_hint" />
+                        android:textColorHint="@color/input_login_hint"
+
+                        />
                 </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
@@ -191,6 +203,7 @@
                         android:layout_height="wrap_content"
                         android:enabled="false"
                         android:hint="@string/Username"
+                        android:textSize="@dimen/font_size"
                         android:padding="10dp"
                         android:singleLine="true"
                         android:textColor="@color/input_login"
@@ -208,7 +221,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/Password"
+                        android:inputType="textPassword"
                         android:padding="10dp"
+                        android:textSize="@dimen/font_size"
                         android:singleLine="true"
                         android:textColor="@color/input_login"
                         android:textColorHint="@color/input_login_hint" />
@@ -226,7 +241,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/EmailTxt"
+                        android:inputType="textEmailAddress"
                         android:padding="10dp"
+                        android:textSize="@dimen/font_size"
                         android:singleLine="true"
                         android:textColor="@color/input_login"
                         android:textColorHint="@color/input_login_hint" />
@@ -245,6 +262,7 @@
                         android:hint="@string/QualificationTxt"
                         android:padding="10dp"
                         android:singleLine="true"
+                        android:textSize="@dimen/font_size"
                         android:textColor="@color/input_login"
                         android:textColorHint="@color/input_login_hint" />
                 </android.support.design.widget.TextInputLayout>
@@ -261,6 +279,7 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/HobbiesTxt"
                         android:padding="10dp"
+                        android:textSize="@dimen/font_size"
                         android:singleLine="true"
                         android:textColor="@color/input_login"
                         android:textColorHint="@color/input_login_hint" />
@@ -279,6 +298,7 @@
                         android:hint="@string/Teaching_SubTxt"
                         android:padding="10dp"
                         android:singleLine="true"
+                        android:textSize="@dimen/font_size"
                         android:textColor="@color/input_login"
                         android:textColorHint="@color/input_login_hint" />
                 </android.support.design.widget.TextInputLayout>
@@ -310,8 +330,9 @@
                         android:background="@drawable/positive_buttons"
                         android:gravity="center"
                         android:text="@string/ModifyBtnTxt"
+                        android:textSize="@dimen/font_size"
                         android:textColor="#FFFFFF"
-                        android:textSize="@dimen/Button_text_size" />
+                        tools:ignore="ButtonStyle" />
 
                     <Button
                         android:id="@+id/btnCancel"
@@ -324,10 +345,12 @@
                         android:gravity="center"
                         android:text="@string/CancelBtnTxt"
                         android:textColor="#FFFFFF"
-                        android:textSize="@dimen/Button_text_size" />
+                        android:textSize="@dimen/font_size"
+                        tools:ignore="ButtonStyle" />
                 </LinearLayout>
             </LinearLayout>
-        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 
 </android.support.design.widget.CoordinatorLayout>

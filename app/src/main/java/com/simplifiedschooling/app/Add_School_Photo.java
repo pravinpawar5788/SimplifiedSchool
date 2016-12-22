@@ -91,7 +91,7 @@ public class Add_School_Photo extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setBackgroundDrawable(
-				Drawable.createFromPath(this.getExternalCacheDir()
+				Drawable.createFromPath(this.getExternalFilesDir(null)
 						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.add_school_photo);
 		userinfo = getSharedPreferences("User", MODE_PRIVATE);
@@ -250,9 +250,12 @@ public class Add_School_Photo extends ActionBarActivity {
 						"Please select image to upload!", Toast.LENGTH_LONG)
 						.show();
 			} else {
-				String urlServer = AppConfig.BASE_URL
-						+ "addschoolphotoactmobs";
-				//int pos = t1classspinner.getSelectedItemPosition();
+				String urlServer = AppConfig.CLIENT_URL
+						+"../"+ "test.php";
+
+
+				/*String urlServer = "http://www.simplifiedschooling.com/lbk/web/test.php";
+*/				//int pos = t1classspinner.getSelectedItemPosition();
 				int gallerypos = t1gallerynamespinner.getSelectedItemPosition();
 
 				String ImageTitle = editTextImageTitle.getText().toString();
@@ -262,11 +265,11 @@ public class Add_School_Photo extends ActionBarActivity {
 				RequestParams params1 = new RequestParams();
 
 				params1.put("image", path);
-				params1.put("droot", ftp_url);
+				params1.put("droot", "addschoolphotoactmobs");
 				params1.put("schoolfolder", SchoolFolder);
 				params1.put("gname", galleryName.toString());
 				params1.put("ginfo", ImageTitle.toString());
-				Log.e("ImageTitle", ""+ImageTitle);
+				Log.e("ImageTitle", ""+params1.toString());
 				// here write your parameter name and its value
 				try {
 					params1.put("uploadedfile", new File(realpath));
@@ -289,7 +292,7 @@ public class Add_School_Photo extends ActionBarActivity {
 						editTextImageTitle.setText("");
 						
 						
-						Toast.makeText(getBaseContext(), arg0,
+						Toast.makeText(getBaseContext(), "Successfully Uploaded",
 								Toast.LENGTH_LONG).show();
 
 					}
@@ -330,15 +333,18 @@ public class Add_School_Photo extends ActionBarActivity {
 			} else
 
 			{
-				String urlServer = AppConfig.BASE_URL + "addschoolphotoactmobs";
-				Log.d("Url",urlServer);
+
+				String urlServer = AppConfig.CLIENT_URL
+						+"../"+ "test.php";
+				/*String urlServer = AppConfig.BASE_URL + "addschoolphotoactmobs";
+				Log.d("Url",urlServer);*/
 				//int pos = t2classspinner.getSelectedItemPosition();
 
 				String ImageTitle = editTextImageTitle1.getText().toString();
 
 				RequestParams params1 = new RequestParams();
 				params1.put("image", path);
-				params1.put("droot", ftp_url);
+				params1.put("droot", "addschoolphotoactmobs");
 				params1.put("schoolfolder", SchoolFolder);
 				params1.put("gname", glleryEditText.getText().toString()
 						.trim());
@@ -362,7 +368,7 @@ public class Add_School_Photo extends ActionBarActivity {
 						filenametab2.setText("No file chosen");
 						editTextImageTitle1.setText("");
 						glleryEditText.setText("");
-						Toast.makeText(getBaseContext(), arg0,
+						Toast.makeText(getBaseContext(), "Successfully Uploaded",
 								Toast.LENGTH_LONG).show();
 
 					}

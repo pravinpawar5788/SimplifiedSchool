@@ -26,7 +26,7 @@ public class CreateLessonPlan extends ActionBarActivity {
 		//requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setBackgroundDrawable(
-				Drawable.createFromPath(this.getExternalCacheDir()
+				Drawable.createFromPath(this.getExternalFilesDir(null)
 						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.fragment_home);
 

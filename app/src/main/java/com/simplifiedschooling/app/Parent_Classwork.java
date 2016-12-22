@@ -71,7 +71,7 @@ public class Parent_Classwork extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setBackgroundDrawable(
-				Drawable.createFromPath(this.getExternalCacheDir()
+				Drawable.createFromPath(this.getExternalFilesDir(null)
 						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.parent_classwork);
 		User_id = getIntent().getExtras().getString("userid");

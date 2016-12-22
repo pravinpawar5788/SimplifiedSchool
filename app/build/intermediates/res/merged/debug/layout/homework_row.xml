@@ -7,7 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        
+
         android:background="#fff"
         android:elevation="5dp"
         android:gravity="center_vertical"
@@ -19,7 +19,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="20"
             android:paddingLeft="3dp"
-            android:text="Student Name"
+            android:text="@string/student_name"
+            android:textSize="@dimen/font_size"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <TextView
@@ -28,7 +29,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="10"
             android:gravity="center_horizontal"
-            android:text="Subject"
+            android:text="@string/subject"
+            android:textSize="@dimen/font_size"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <TextView
@@ -37,7 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="10"
             android:gravity="center_horizontal"
-            android:text="Given On"
+            android:text="@string/given_on"
+            android:textSize="@dimen/font_size"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <TextView
@@ -46,22 +49,24 @@
             android:layout_height="wrap_content"
             android:layout_weight="10"
             android:gravity="center_horizontal"
-            android:text="Submit On"
+            android:text="@string/submit_on"
+            android:textSize="@dimen/font_size"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <TextView
             android:id="@+id/textHomeworkDescription"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="40"
             android:gravity="center_horizontal"
-            android:text="Description"
+            android:text="@string/description"
+            android:textSize="@dimen/font_size"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <TextView
             android:id="@+id/textAttachment"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/attechtment_height"
             android:layout_weight="10"
             android:background="@drawable/attachment"
             android:text=""

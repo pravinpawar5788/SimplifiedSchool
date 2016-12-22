@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/inner_bg"
+    android:background="@drawable/content_page"
     android:orientation="vertical"
     android:theme="@style/AppTheme" >
 
@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="205dp"
         android:layout_weight="1.40"
-        android:background="@drawable/inner_bg" >
+        android:background="@drawable/content_page" >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -230,12 +230,12 @@
                             android:id="@+id/btnChoosetab2"
                             style="?android:attr/buttonStyleSmall"
                             android:layout_width="wrap_content"
-                            android:layout_height="20dp"
+                            android:layout_height="@dimen/Button_height"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/positive_buttons"
                             android:text="@string/Choose_FileTxt"
                             android:textColor="#ffffff"
-                            android:textSize="@dimen/Button_text_size" />
+                            android:textSize="@dimen/font_size" />
 
                         <Button
                             android:id="@+id/btnTakePhoto2"

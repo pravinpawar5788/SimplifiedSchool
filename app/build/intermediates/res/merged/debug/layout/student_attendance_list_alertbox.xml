@@ -153,21 +153,22 @@
             android:id="@+id/btnModify"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/Button_height"
             android:layout_marginRight="10dp"
+            android:background="@color/green"
+            android:padding="10dp"
 
-            android:padding="13dp"
             android:text="Modify"
-            android:textColor="@color/common_plus_signin_btn_text_light_focused" />
+            android:textColor="@color/white" />
 
         <Button
             android:id="@+id/btnCancel"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
-            android:layout_height="48dp"
-
-            android:padding="3dp"
+            android:layout_height="@dimen/Button_height"
+            android:background="@color/btn_logut_bg"
+            android:padding="10dp"
             android:text="Cancel"
-            android:textColor="@color/common_plus_signin_btn_text_light_focused" />
+            android:textColor="@color/white" />
     </LinearLayout>
 </LinearLayout>

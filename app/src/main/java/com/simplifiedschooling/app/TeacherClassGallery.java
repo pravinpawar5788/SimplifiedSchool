@@ -62,7 +62,7 @@ public class TeacherClassGallery extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setBackgroundDrawable(
-				Drawable.createFromPath(this.getExternalCacheDir()
+				Drawable.createFromPath(this.getExternalFilesDir(null)
 						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.teacher_gallery);
 		userinfo = getSharedPreferences("User", MODE_PRIVATE);

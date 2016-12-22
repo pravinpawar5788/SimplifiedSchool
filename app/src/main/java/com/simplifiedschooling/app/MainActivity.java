@@ -463,14 +463,25 @@ public class MainActivity extends Activity {
                                     user_id = user.getJSONObject(0).getJSONObject("0").getString("user_id");
                                     id = user.getJSONObject(0).getJSONObject("0").getString("id");
                                     Log.d(TAG, "Login id: " + id.toString());
-                                    mUsername = user.getJSONObject(0)
-                                            .getJSONObject("0")
-                                            .getString("firstname")
-                                            + " "
-                                            + user.getJSONObject(0)
-                                            .getJSONObject("0")
-                                            .getString("lastname");
-
+                                    if(user.getJSONObject(0).getJSONObject("0").getString("firstname")=="-" && rolename
+                                            .equalsIgnoreCase("Parentinfo"))
+                                    {
+                                        mUsername = user.getJSONObject(0)
+                                                .getJSONObject("0")
+                                                .getString("motherfirstname")
+                                                + " "
+                                                + user.getJSONObject(0)
+                                                .getJSONObject("0")
+                                                .getString("lastname");
+                                    }else {
+                                        mUsername = user.getJSONObject(0)
+                                                .getJSONObject("0")
+                                                .getString("firstname")
+                                                + " "
+                                                + user.getJSONObject(0)
+                                                .getJSONObject("0")
+                                                .getString("lastname");
+                                    }
                                     Log.d(TAG, "Login Response: " + roleid
                                             + " " + user_id);
                                     // Inserting row in users table

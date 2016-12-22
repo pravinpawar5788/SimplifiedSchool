@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/inner_bg"
+    android:background="@drawable/content_page"
     android:orientation="vertical"
     tools:context=".GalleryList_Admin" >
 
@@ -51,7 +51,7 @@
             android:id="@+id/gallery"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            
+            android:background="@drawable/content_page"
             android:gravity="center"
             android:numColumns="3"
             android:padding="5dp"

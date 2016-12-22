@@ -171,22 +171,22 @@ public class ParentHomeActivity extends Activity {
         gridArray.add(new Item(Homework, "Homework"));
         gridArray.add(new Item(Classwork, "Classwork"));
         //gridArray.add(new Item(Assignments, "Assignment and Project Work"));
-        gridArray.add(new Item(Attendance_Summery, "Student Attendance"));
+        //gridArray.add(new Item(Attendance_Summery, "Student Attendance"));
         gridArray.add(new Item(Announcements, "Announcements"));
         gridArray.add(new Item(ClassGallery, "Class Album"));
         gridArray.add(new Item(SchoolGallery, " School Album"));
         gridArray.add(new Item(RequestForleave, "Request For Leave"));
-        gridArray.add(new Item(Mail, "Mail"));
-        gridArray.add(new Item(TopicforRevision, "Topic for Revision"));
-        gridArray.add(new Item(ReferenceMiultimediaLink, "Reference Multimedia Link"));
+        //gridArray.add(new Item(Mail, "Mail"));
+      /*  gridArray.add(new Item(TopicforRevision, "Topic for Revision"));
+       // gridArray.add(new Item(ReferenceMiultimediaLink, "Reference Multimedia Link"));
         gridArray.add(new Item(RefrenceVideo, "Reference Video"));
-        gridArray.add(new Item(ReferenceLink, "Reference Link"));
+       // gridArray.add(new Item(ReferenceLink, "Reference Link"));
         gridArray.add(new Item(ContentLink, "Content Link"));
-        gridArray.add(new Item(WeeklyReport, "Weekly Report"));
+        gridArray.add(new Item(WeeklyReport, "Weekly Report"));*/
         gridArray.add(new Item(Calendar, "School Calendar"));
         gridArray.add(new Item(Emergency, "In Case of Emergency"));
-        gridArray.add(new Item(Bus, "Mode Of Transport"));
-        gridArray.add(new Item(ProgressReport, "Progress Report"));
+       // gridArray.add(new Item(Bus, "Mode Of Transport"));
+       // gridArray.add(new Item(ProgressReport, "Progress Report"));
 
         grid = (GridView) findViewById(R.id.gridView1);
         customGridAdapter = new CustomGridViewAdapter(this, R.layout.row_grid,
@@ -249,100 +249,102 @@ public class ParentHomeActivity extends Activity {
 
                             break;
 */
-                        case 5:
+                      /*  case 5:
                             intent = new Intent(getApplicationContext(),
                                     Student_attendance.class);
 
-                            break;
-                        case 6:
+                            break;*/
+                        case 5:
                             intent = new Intent(getApplicationContext(),
                                     Parent_Announcement.class);
 
                             break;
 
-                        case 7:
+                        case 6:
                             intent = new Intent(getApplicationContext(),
                                     Parent_GalleryList.class);
 
                             break;
 
-                        case 8:
+                        case 7:
                             intent = new Intent(getApplicationContext(),
                                     Parent_SchoolGalleryList.class);
 
                             break;
 
-                        case 9:
+                        case 8:
                             intent = new Intent(getApplicationContext(),
                                     Parent_RequestForLeave.class);
 
                             break;
 
-                        case 10:
+                        /*case 10:
                             intent = new Intent(getApplicationContext(),
                                     Parent_Mail.class);
 
-                            break;
+                            break;*/
 
-                        case 11:
+                        /*case 9:
                             intent = new Intent(getApplicationContext(),
                                     TopicforRevision.class);
 
-                            break;
-                        case 12:
+                            break;*/
+                        /*case 12:
                             intent = new Intent(getApplicationContext(),
                                     ReferenceMediaLink.class);
 
                             break;
-
-                        case 13:
+*/
+                      /*  case 10:
                             intent = new Intent(getApplicationContext(),
                                     ReferenceVideo.class);
 
-                            break;
+                            break;*/
+/*
 
                         case 14:
                             intent = new Intent(getApplicationContext(),
                                     ReferenceLink.class);
 
                             break;
+*/
 
-                        case 15:
+                      /*  case 11:
                             intent = new Intent(getApplicationContext(),
                                     ContentLink.class);
 
                             break;
 
-                        case 16:
+                        case 12:
                             intent = new Intent(getApplicationContext(),
                                     WeeklyReport.class);
 
                             break;
-
-                        case 17:
+*/
+                        case 9:
                             intent = new Intent(getApplicationContext(),
                                     ParentSchoolCalendar.class);
 
                             break;
 
-                        case 18:
+                        case 10:
                             intent = new Intent(getApplicationContext(),
                                     Incaseofemergancy.class);
 
                             break;
 
-                        case 19:
+                       /* case 15:
                             intent = new Intent(getApplicationContext(),
                                     Modeoftransport.class);
 
                             break;
 
-                        case 20:
+                        case 16:
                             intent = new Intent(getApplicationContext(),
                                     Progress_report.class);
 
                             break;
-
+*/
                         default:
                             break;
                     }

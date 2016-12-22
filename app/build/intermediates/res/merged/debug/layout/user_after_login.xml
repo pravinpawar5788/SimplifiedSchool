@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.40"
-            android:background="@drawable/icon_bg"
+            android:background="@drawable/content_page"
             android:orientation="vertical" >
 
             <TabWidget
@@ -93,24 +93,24 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/Footer_height"
+        android:layout_height="@dimen/Button_height"
         android:background="@drawable/bottom_advertisement" >
 
         <Button
             android:id="@+id/mbuttonLogout"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/Footer_height"
+            android:layout_height="@dimen/Button_height"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:background="@drawable/positive_buttons"
             android:text="@string/logout"
             android:textColor="#FF0000"
-            android:textSize="@dimen/Button_text_size" />
+            android:textSize="@dimen/font_size" />
 
         <Button
             android:id="@+id/imageView1"
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:background="@drawable/bottom_logo" />

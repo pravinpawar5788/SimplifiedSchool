@@ -7,14 +7,14 @@
     <TabHost
         android:id="@+id/TabHost01"
         android:layout_width="match_parent"
-        android:layout_height="205dp"
+        android:layout_height="0dp"
         android:layout_weight="1.40"
-        android:background="@color/gray" >
+        android:background="@drawable/content_page" >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1.40"
+            android:layout_weight="1.4"
             android:orientation="vertical" >
 
             <TabWidget
@@ -52,52 +52,57 @@
 
                             <TextView
                                 android:id="@+id/textStudentName"
-                                android:layout_width="wrap_content"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="20"
                                 android:paddingLeft="3dp"
-                                android:text="Student Name"
+                                android:text="@string/student_name"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textSubject"
-                                android:layout_width="wrap_content"
+                                android:layout_width="60dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:gravity="center_horizontal"
-                                android:text="Subject"
+                                android:text="@string/subject"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textGivenon"
-                                android:layout_width="wrap_content"
+                                android:layout_width="60dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:gravity="center_horizontal"
-                                android:text="Given On"
+                                android:text="@string/given_on"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textSubmissionDate"
-                                android:layout_width="wrap_content"
+                                android:layout_width="60dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:gravity="center_horizontal"
-                                android:text="Submit On"
+                                android:text="@string/submit_on"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textHomeworkDescription"
-                                android:layout_width="wrap_content"
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="40"
                                 android:gravity="center_horizontal"
-                                android:text="Description"
+                                android:text="@string/description"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textAttachment"
-                                android:layout_width="wrap_content"
+                                android:layout_width="20dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:text=""
@@ -153,52 +158,56 @@
 
                             <TextView
                                 android:id="@+id/textStudentName1"
-                                android:layout_width="wrap_content"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="20"
                                 android:paddingLeft="3dp"
-                                android:text="Student Name"
+                                android:text="@string/student_name"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textSubject1"
-                                android:layout_width="wrap_content"
+                                android:layout_width="60dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:gravity="center_horizontal"
-                                android:text="Subject"
+                                android:text="@string/subject"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textGivenon1"
-                                android:layout_width="wrap_content"
+                                android:layout_width="60dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:gravity="center_horizontal"
-                                android:text="Given On"
+                                android:text="@string/given_on"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textSubmissionDate1"
-                                android:layout_width="wrap_content"
+                                android:layout_width="60dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:gravity="center_horizontal"
-                                android:text="Submit On"
+                                android:text="@string/submit_on"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textHomeworkDescription1"
-                                android:layout_width="wrap_content"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="40"
                                 android:gravity="center_horizontal"
-                                android:text="Description"
+                                android:text="@string/abc_description"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textAttachment1"
-                                android:layout_width="wrap_content"
+                                android:layout_width="20dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:text=""
@@ -255,7 +264,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingLeft="3dp"
-                                android:text="Select Student "
+                                android:text="@string/Select_StudentTxt"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <Spinner
@@ -278,7 +288,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingLeft="3dp"
-                                android:text="Select Week"
+                                android:text="@string/abc_select_week"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <Spinner
@@ -299,52 +310,57 @@
 
                             <TextView
                                 android:id="@+id/textStudentName2"
-                                android:layout_width="wrap_content"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="20"
                                 android:paddingLeft="3dp"
-                                android:text="Student Name"
+                                android:text="@string/student_name"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textSubject2"
-                                android:layout_width="wrap_content"
+                                android:layout_width="60dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:gravity="center_horizontal"
-                                android:text="Subject"
+                                android:text="@string/subject"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textGivenon2"
-                                android:layout_width="wrap_content"
+                                android:layout_width="60dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:gravity="center_horizontal"
-                                android:text="Given On"
+                                android:text="@string/given_on"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textSubmissionDate2"
-                                android:layout_width="wrap_content"
+                                android:layout_width="60dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:gravity="center_horizontal"
-                                android:text="Submit On"
+                                android:text="@string/submit_on"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textHomeworkDescription2"
-                                android:layout_width="wrap_content"
+                                android:layout_width="100dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="40"
                                 android:gravity="center_horizontal"
-                                android:text="Description"
+                                android:text="@string/description"
+                                android:textSize="@dimen/font_size"
                                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
                             <TextView
                                 android:id="@+id/textAttachment2"
-                                android:layout_width="wrap_content"
+                                android:layout_width="20dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="10"
                                 android:text=""

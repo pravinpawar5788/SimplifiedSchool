@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/inner_bg"
+    android:background="@drawable/content_page"
     android:orientation="vertical" >
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_margin="20dp"
         android:layout_weight="1.44"
         android:orientation="vertical"
@@ -21,6 +22,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="@dimen/TextView_width"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
                 android:text="@string/DateTxt" />
 
             <EditText
@@ -31,8 +33,8 @@
                 android:background="@drawable/edit_text_bg"
                 android:ems="10"
                 android:inputType="date"
-                android:singleLine="true"
-                android:textSize="@dimen/font_size" >
+                android:textSize="@dimen/font_size"
+                android:maxLines="1">
 
                 <requestFocus />
             </EditText>
@@ -42,7 +44,8 @@
                 android:layout_width="@dimen/Spinner_Height"
                 android:layout_height="@dimen/Spinner_Height"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/calender_icon" />
+                android:src="@drawable/calender_icon"
+                tools:ignore="ContentDescription" />
         </LinearLayout>
 
         <LinearLayout
@@ -53,6 +56,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="@dimen/TextView_width"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
                 android:text="@string/ClassTxt" />
 
             <Spinner
@@ -74,6 +78,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
                 android:layout_marginLeft="110dp"
                 android:text="@string/DivTxt" />
 
@@ -94,6 +99,7 @@
                 android:id="@+id/textView21"
                 android:layout_width="@dimen/TextView_width"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
                 android:text="@string/abc_subject" />
 
             <EditText
@@ -104,8 +110,8 @@
                 android:background="@drawable/edit_text_bg"
                 android:ems="10"
                 android:inputType="text"
-                android:singleLine="true"
-                android:textSize="@dimen/font_size" >
+                android:textSize="@dimen/font_size"
+                android:maxLines="1">
             </EditText>
         </LinearLayout>
 
@@ -119,6 +125,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="@dimen/TextView_width"
                 android:layout_height="match_parent"
+                android:textSize="@dimen/font_size"
                 android:text="@string/abc_announcement" />
 
             <EditText
@@ -142,11 +149,12 @@
             <Button
                 android:id="@+id/button1"
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="@dimen/Button_height"
                 android:layout_marginLeft="@dimen/TextView_width"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/positive_buttons"
                 android:text="@string/abc_submit"
+                android:textSize="@dimen/font_size"
                 android:textColor="#FFFFFF" />
         </LinearLayout>
     </LinearLayout>

@@ -68,7 +68,7 @@ public class Teacher_ClassAnnouncement extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setBackgroundDrawable(
-				Drawable.createFromPath(this.getExternalCacheDir()
+				Drawable.createFromPath(this.getExternalFilesDir(null)
 						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.teacher_class_announcement);
 		/*
@@ -155,14 +155,19 @@ public class Teacher_ClassAnnouncement extends ActionBarActivity {
 
 								calssList.add(class_name);
 								classId.add(class_Id);
-								ArrayAdapter<String> classlistadapter = new ArrayAdapter<String>(
-										Teacher_ClassAnnouncement.this,
-										android.R.layout.simple_spinner_item,
-										calssList);
+								if(calssList.size()>0) {
+									ArrayAdapter<String> classlistadapter = new ArrayAdapter<String>(
+											Teacher_ClassAnnouncement.this,
+											android.R.layout.simple_spinner_item,
+											calssList);
 
-								tclass.setAdapter(classlistadapter);
+									tclass.setAdapter(classlistadapter);
 
-								classlistadapter.notifyDataSetChanged();
+									classlistadapter.notifyDataSetChanged();
+								}else{
+									Toast.makeText(getApplicationContext(),
+											"There is no class", Toast.LENGTH_LONG).show();
+								}
 							}
 						} catch (JSONException e) {
 							e.printStackTrace();

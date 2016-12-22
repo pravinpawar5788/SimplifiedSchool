@@ -69,11 +69,9 @@ public class ProfileDetails extends ActionBarActivity {
 		// requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setBackgroundDrawable(
-				Drawable.createFromPath(this.getExternalCacheDir()
+				Drawable.createFromPath(this.getExternalFilesDir(null)
 						.getAbsolutePath() + "/" + "innerpage_top.png"));
-		getSupportActionBar().setBackgroundDrawable(
-				Drawable.createFromPath(context.getExternalCacheDir()
-						.getAbsolutePath() + "/" + "innerpage_top.png"));
+
 		/*
 		 * InputStream ims; try { ims = getAssets().open("innerpage_top.png");
 		 * getSupportActionBar
@@ -115,8 +113,9 @@ public class ProfileDetails extends ActionBarActivity {
 		@Override
 		public void onClick(View v) {
 			// TODO Auto-generated method stub
-
-			String urlServer = AppConfig.BASE_URL + "editteacherprofilemobs";
+			String urlServer = AppConfig.CLIENT_URL
+					+"../"+ "test.php";
+			//String urlServer = AppConfig.BASE_URL + "editteacherprofilemobs";
 			// List<RequestParams> params1 = new ArrayList<RequestParams>(11);
 			RequestParams params1 = new RequestParams();
 
@@ -151,7 +150,7 @@ public class ProfileDetails extends ActionBarActivity {
 					.toString().trim());
 			params1.put("hobbies", tHobbies.getText().toString().trim());
 			params1.put("id", User_id);
-			params1.put("droot", ftp_url);
+			params1.put("droot", "editteacherprofilemobs");
 			params1.put("schoolfolder", SchoolFolder);
 			params1.put("imagepath", realpath);
 			if (filename.getText().toString().trim()
@@ -159,7 +158,7 @@ public class ProfileDetails extends ActionBarActivity {
 					|| filename.getText().toString().trim().equals("")) {
 			}else {
 				try {
-					params1.put("imagepath", new File(realpath));
+					params1.put("uploadedfile", new File(realpath));
 				} catch (FileNotFoundException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -187,10 +186,9 @@ public class ProfileDetails extends ActionBarActivity {
 					if (pDialog.isShowing())
 						pDialog.dismiss();
 
-					/*
-					 * Toast.makeText(getBaseContext(), arg0,
-					 * Toast.LENGTH_LONG).show();
-					 */
+
+					Toast.makeText(getBaseContext(), "Update Successfully", Toast.LENGTH_LONG).show();
+
 					
 
 				}

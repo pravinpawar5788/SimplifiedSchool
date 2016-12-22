@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+        "outputFile": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -1765,9 +1765,28 @@
                     "startLine": 262,
                     "startColumn": 4,
                     "startOffset": 18952,
-                    "endLine": 264,
+                    "endColumn": 121,
+                    "endOffset": 19069
+                },
+                "from": {
+                    "file": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-appinvite\\9.4.0\\res\\values-v21\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 121,
+                        "endOffset": 336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 19074,
+                    "endLine": 265,
                     "endColumn": 12,
-                    "endOffset": 19141
+                    "endOffset": 19263
                 },
                 "from": {
                     "file": "C:\\Users\\admin\\StudioProjects\\SimplifiedSchool\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values-v21\\values-v21.xml",

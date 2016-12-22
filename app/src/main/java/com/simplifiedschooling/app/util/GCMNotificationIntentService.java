@@ -5,6 +5,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.media.RingtoneManager;
 import android.net.Uri;
@@ -17,9 +18,11 @@ import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.simplifiedschooling.app.MainActivity;
 import com.simplifiedschooling.app.R;
 
+import java.util.Random;
+
 public class GCMNotificationIntentService extends IntentService {
 
-    public static final int NOTIFICATION_ID = 1;
+    //public static final int NOTIFICATION_ID = 1;
     private NotificationManager mNotificationManager;
     NotificationCompat.Builder builder;
 
@@ -76,13 +79,14 @@ public class GCMNotificationIntentService extends IntentService {
                 .getSystemService(Context.NOTIFICATION_SERVICE);
 
         PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
-                new Intent(this, MainActivity.class), 0);
+                new Intent(this, MainActivity.class), PendingIntent.FLAG_UPDATE_CURRENT);
         Uri alarmSound = RingtoneManager
                 .getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(
                 this)
-                .setSmallIcon(R.drawable.ic_launcher)
-                .setContentTitle(R.string.app_name + " " + "Notification")
+                .setSmallIcon(getNotificationIcon())
+
+                .setContentTitle("Little Bo-Peep Notification")
                 // .setContentText("Subject")
                 .setStyle(new NotificationCompat.BigTextStyle().bigText(msg))
                 .setVibrate(new long[]{1000, 1000, 1000, 1000, 1000})
@@ -91,7 +95,14 @@ public class GCMNotificationIntentService extends IntentService {
                 .setContentText(msg);
 
         mBuilder.setContentIntent(contentIntent);
+        Random random = new Random();
+        int NOTIFICATION_ID = random.nextInt(9999 - 1000) + 1000;
         mNotificationManager.notify(NOTIFICATION_ID, mBuilder.build());
         Log.d(TAG, "Notification sent successfully.");
+    }
+
+    private int getNotificationIcon() {
+        boolean useWhiteIcon = (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP);
+        return useWhiteIcon ? R.drawable.icon_silhouette : R.drawable.ic_launcher;
     }
 }

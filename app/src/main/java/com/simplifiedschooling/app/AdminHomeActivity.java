@@ -138,8 +138,8 @@ public class AdminHomeActivity extends Activity {
 		//gridArray.add(new Item(School_Bus, "School Bus"));
 		/*gridArray.add(new Item(Locate_Bus, "Locate Bus"));*/
 		gridArray.add(new Item(Student_Profile, "Student Details"));
-		gridArray.add(new Item(Mail, "Mail"));
-		gridArray.add(new Item(Library, "Library"));
+		//gridArray.add(new Item(Mail, "Mail"));
+		//gridArray.add(new Item(Library, "Library"));
 		gridArray.add(new Item(TaskCalendar, "Task Calendar"));
 		gridArray.add(new Item(SchoolCalendar, "School Calendar"));
 		grid = (GridView) findViewById(R.id.gridView1);
@@ -204,7 +204,7 @@ public class AdminHomeActivity extends Activity {
 					
 					break;
 
-				case 6:
+				/*case 6:
 					intent = new Intent(getApplicationContext(),
 							Mail_Admin.class);
 					
@@ -213,13 +213,13 @@ public class AdminHomeActivity extends Activity {
 					intent = new Intent(getApplicationContext(),
 							Library_Admin.class);
 					
-					break;
-				case 8:
+					break;*/
+				case 6:
 					intent = new Intent(getApplicationContext(),
 							Admin_TaskCalendar.class);
 					
 					break;
-				case 9:
+				case 7:
 					intent = new Intent(getApplicationContext(),
 							Admin_SchoolCalendar.class);
 					

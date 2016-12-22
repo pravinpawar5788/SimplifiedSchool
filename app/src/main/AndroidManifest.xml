@@ -7,7 +7,7 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="23" />
 
     <supports-screens
         android:anyDensity="true"
@@ -139,7 +139,16 @@
         <activity
             android:name=".Student_details"
             android:screenOrientation="landscape">
-
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.AllStudentList_Admin" />
+        </activity>
+        <activity
+            android:name=".Student_Profile"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simplifiedschooling.app.AllStudentList" />
         </activity>
         <activity
             android:name=".TeacherClassGallery"

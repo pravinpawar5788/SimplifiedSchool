@@ -11,7 +11,7 @@
     <dimen name="Header_Width">200dp</dimen>
     <dimen name="Footer_height">40dp</dimen>
     <dimen name="Text_size_footer">9sp</dimen>
-    <dimen name="Button_height">25dp</dimen>
+    <dimen name="Button_height">45dp</dimen>
     <dimen name="EditText_height">35dp</dimen>
     <dimen name="Reply_EditText_height">40dp</dimen>
     <dimen name="EditText_width">150dp</dimen>
@@ -31,5 +31,7 @@
     <dimen name="chekbox_text_size">12sp</dimen>
     <dimen name="gallery_image_width">120dp</dimen>
     <dimen name="gallery_image_height">120dp</dimen>
+    <dimen name="attechtment_height">30dp</dimen>
+    <dimen name="abc_spinnercity_width">200dp</dimen>
 
 </resources>

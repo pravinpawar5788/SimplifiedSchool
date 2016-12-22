@@ -23,7 +23,7 @@ public class Admin_SchoolCalendar extends ActionBarActivity {
 		//requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setBackgroundDrawable(
-				Drawable.createFromPath(this.getExternalCacheDir()
+				Drawable.createFromPath(this.getExternalFilesDir(null)
 						.getAbsolutePath() + "/" + "innerpage_top.png"));
 
 		setContentView(R.layout.fragment_home);
@@ -71,7 +71,7 @@ public class Admin_SchoolCalendar extends ActionBarActivity {
 				try {
 					if (progressDialog.isShowing()) {
 						progressDialog.dismiss();
-						progressDialog = null;
+						//progressDialog = null;
 					}
 				} catch (Exception exception) {
 					exception.printStackTrace();

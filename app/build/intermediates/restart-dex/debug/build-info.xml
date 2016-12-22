@@ -3,28 +3,32 @@
     abi="armeabi-v7a,armeabi"
     api-level="22"
     density="hdpi"
-    format="7"
-    timestamp="3072081369024"
-    token="-4185038313509853798" >
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="18503354071313"
+    token="-4185038313509853798"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="4828" />
+        duration="9825" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3912" />
+        duration="5961" />
     <task
         name="verifier"
-        duration="1724" />
+        duration="2059" />
 
     <artifact
         location="C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="3072081369024" >
+    <build
+        timestamp="18503354071313"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\admin\StudioProjects\SimplifiedSchool\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

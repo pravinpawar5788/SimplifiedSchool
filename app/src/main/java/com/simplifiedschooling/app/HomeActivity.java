@@ -182,12 +182,12 @@ public class HomeActivity extends Activity {
         gridArray.add(new Item(class_plan, "Class Lesson Plan Status"));
         // gridArray.add(new Item(Communicator, "Communicator"));
         gridArray.add(new Item(Birthday, "Birthdays This Month"));
-        gridArray.add(new Item(progress, "Co-Scoharlist  Mark File"));
-        gridArray.add(new Item(view_progress, "View Progress Report"));
+       // gridArray.add(new Item(progress, "Co-Scoharlist  Mark File"));
+        //gridArray.add(new Item(view_progress, "View Progress Report"));
         gridArray.add(new Item(Time_table, "Time Table"));
         gridArray.add(new Item(Student_details, "View Student Details"));
-        gridArray.add(new Item(Mail, "Mail"));
-        gridArray.add(new Item(Library, "Library"));
+        //gridArray.add(new Item(Mail, "Mail"));
+       // gridArray.add(new Item(Library, "Library"));
         gridArray.add(new Item(Calendar, "School Calendar"));
         gridArray.add(new Item(TaskCalendar, "Task Calendar"));
 
@@ -332,7 +332,7 @@ public class HomeActivity extends Activity {
 
                             break;
 
-                        case 9:
+                       /* case 9:
                             intent = new Intent(getApplicationContext(),
                                     Progress_report.class);
 
@@ -343,12 +343,12 @@ public class HomeActivity extends Activity {
                                     View_Progress.class);
 
                             break;
-
-                        case 11:
+*/
+                        case 9:
                             intent = new Intent(getApplicationContext(),
                                     TimeTable.class);
                             break;
-                        case 12:
+                        case 10:
                             intent = new Intent(getApplicationContext(),
                                     AllStudentList.class);
 
@@ -364,11 +364,11 @@ public class HomeActivity extends Activity {
 
 						break;
 */
-                        case 15:
+                        case 11:
                             intent = new Intent(getApplicationContext(), SchoolCalendar.class);
                             break;
 
-                        case 16:
+                        case 12:
                             intent = new Intent(getApplicationContext(), TaskCalendar.class);
                             break;
 

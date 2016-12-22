@@ -82,7 +82,7 @@ public class Add_Class_Photo extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setBackgroundDrawable(
-				Drawable.createFromPath(this.getExternalCacheDir()
+				Drawable.createFromPath(this.getExternalFilesDir(null)
 						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.add_class_photo);
 		id = getIntent().getExtras().getString("id");
@@ -252,11 +252,17 @@ public class Add_Class_Photo extends ActionBarActivity {
 								String divname = c.getString("divname");
 								calssList.add(classname + " " + divname);
 								calssDivIdList.add(classdivid);
-								ArrayAdapter<String> classlistadapter = new ArrayAdapter<String>(
-										Add_Class_Photo.this, android.R.layout.simple_spinner_item,
-										calssList);
-								t1classspinner.setAdapter(classlistadapter);
-								t2classspinner.setAdapter(classlistadapter);
+								if(calssList.size()>0) {
+									ArrayAdapter<String> classlistadapter = new ArrayAdapter<String>(
+											Add_Class_Photo.this, android.R.layout.simple_spinner_item,
+											calssList);
+									t1classspinner.setAdapter(classlistadapter);
+									t2classspinner.setAdapter(classlistadapter);
+									classlistadapter.notifyDataSetChanged();
+								}else{
+									Toast.makeText(getApplicationContext(),
+											"There is no class", Toast.LENGTH_LONG).show();
+								}
 							}
 						} catch (JSONException e) {
 							e.printStackTrace();
@@ -291,8 +297,11 @@ public class Add_Class_Photo extends ActionBarActivity {
 						"Please select image to upload!", Toast.LENGTH_LONG)
 						.show();
 			} else {
-				String urlServer = BASEURL
-						+ "addclassphotoactmobs";
+
+				String urlServer = AppConfig.CLIENT_URL
+						+"../"+ "test.php";
+				/*String urlServer = BASEURL
+						+ "addclassphotoactmobs";*/
 				int pos = t1classspinner.getSelectedItemPosition();
 				int gallerypos = t1gallerynamespinner.getSelectedItemPosition();
 
@@ -303,7 +312,7 @@ public class Add_Class_Photo extends ActionBarActivity {
 				RequestParams params1 = new RequestParams();
 
 				params1.put("image", path);
-				params1.put("droot", ftp_url);
+				params1.put("droot", "addclassphotoactmobs");
 				params1.put("schoolfolder", SchoolFolder);
 				params1.put("gname", galleryName.toString());
 				params1.put("classid", classdivId.toString());
@@ -326,7 +335,7 @@ public class Add_Class_Photo extends ActionBarActivity {
 						if (pDialog.isShowing())
 							pDialog.dismiss();
 						filenametab1.setText("No file chosen");
-						Toast.makeText(getBaseContext(), arg0,
+						Toast.makeText(getBaseContext(), "Successfully Uploaded",
 								Toast.LENGTH_LONG).show();
 
 					}
@@ -367,14 +376,15 @@ public class Add_Class_Photo extends ActionBarActivity {
 			} else
 
 			{
-				String urlServer = BASEURL + "addclassphotoactmobs";
+				String urlServer = AppConfig.CLIENT_URL
+						+"../"+ "test.php";
 				int pos = t2classspinner.getSelectedItemPosition();
 
 				String classdivId = calssDivIdList.get(pos);
 
 				RequestParams params1 = new RequestParams();
 				params1.put("image", path);
-				params1.put("droot", ftp_url);
+				params1.put("droot", "addclassphotoactmobs");
 				params1.put("schoolfolder", SchoolFolder);
 				params1.put("gname", glleryEditText.getText().toString()
 						.trim());
@@ -397,7 +407,7 @@ public class Add_Class_Photo extends ActionBarActivity {
 							pDialog.dismiss();
 						filenametab2.setText("No file chosen");
 						glleryEditText.setText("");
-						Toast.makeText(getBaseContext(), arg0,
+						Toast.makeText(getBaseContext(), "Successfully Uploaded",
 								Toast.LENGTH_LONG).show();
 
 					}

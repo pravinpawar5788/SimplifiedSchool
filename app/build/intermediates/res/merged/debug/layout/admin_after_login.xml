@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.40"
-        android:background="@drawable/icon_bg"
+        android:background="@drawable/content_page"
         android:orientation="vertical" >
 
         <LinearLayout
@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
-                android:columnWidth="80dp"
+
                 android:gravity="center"
                 android:horizontalSpacing="10dp"
                 android:numColumns="3"

@@ -82,7 +82,7 @@ public class SchoolSettingActivity extends Activity {
         setContentView(R.layout.splashscreen);
         pDialog = new ProgressDialog(this);
 		pDialog.setCancelable(false);
-        userinfo = getSharedPreferences("User", MODE_PRIVATE);
+        userinfo = this.getSharedPreferences("User", MODE_PRIVATE);
         DataBaseName = userinfo.getString("schooldbname", "");
         SchoolFolder = userinfo.getString("schoolfolder", "");
 
@@ -117,10 +117,10 @@ public class SchoolSettingActivity extends Activity {
                 public void onClick(View v) {
                     // TODO Auto-generated method stub
 
-					/*if (mCity.isSelected() && mSchool.isSelected()) {
+					/*if (!mCity.isSelected() && !mSchool.isSelected()) {
 						Toast.makeText(getApplicationContext(), "Please select city and school!", Toast.LENGTH_SHORT).show();
-					} else {*/
-
+					} else {
+*/
 
                     int pos = mCity.getSelectedItemPosition();
                     String city = CITY.get(pos - 1).toString();
@@ -130,7 +130,7 @@ public class SchoolSettingActivity extends Activity {
                     String ftpurl = FTP_URL.get(pos1 - 1);
                     String schoolfolder = SCHOOLFOLDER.get(pos1 - 1);
                     AppConfig.CLIENT_URL = AppConfig.CLIENT_URL1 + schoolfolder
-                            + "/web/app_dev.php/";
+                            + "/web/";
                     AppConfig.BASE_URL = AppConfig.BASE_URL1 + schooldbname
                             + "/";
                     userinfo = getSharedPreferences("User", MODE_PRIVATE);
@@ -176,8 +176,7 @@ public class SchoolSettingActivity extends Activity {
 
                     }
                     for (int i = 0; i < images.length; i++) {
-                        imagepath = AppConfig.CLIENT_URL + "../"
-                                + "androidimage/" + images[i];
+                        imagepath = AppConfig.CLIENT_URL + "../androidimage/" + images[i];
                         Log.e("ImagePath>>>", imagepath);
                         new DownloadTask(SchoolSettingActivity.this)
                                 .execute(imagepath);
@@ -198,14 +197,14 @@ public class SchoolSettingActivity extends Activity {
 
             AppConfig.BASE_URL = null;
             AppConfig.BASE_URL = AppConfig.BASE_URL1 + DataBaseName + "/";
-            String file = context.getExternalCacheDir().getAbsolutePath() + "/"
+            String file = context.getExternalFilesDir(null).getAbsolutePath() + "/"
                     + "background.png";
             File f = new File(file);
             if (f.exists() && f.length() > 0) {
 
             } else {
                 for (int i = 0; i < images.length; i++) {
-                    imagepath = AppConfig.CLIENT_URL + "../" + "androidimage/"
+                    imagepath = AppConfig.CLIENT_URL + "../androidimage/"
                             + images[i];
                     Log.e("ImagePath>>>", imagepath);
                     new DownloadTask(SchoolSettingActivity.this)

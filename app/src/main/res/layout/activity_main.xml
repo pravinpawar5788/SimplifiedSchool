@@ -1,7 +1,7 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
 android:layout_width="fill_parent"
 android:layout_height="fill_parent"
-android:background="@color/bg_login"
+android:background="@drawable/content_page"
 android:gravity="center"
 android:orientation="vertical"
 android:padding="10dp">
@@ -25,7 +25,7 @@ android:padding="10dp">
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@color/white"
+            android:background="@color/gray"
             android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
             android:padding="10dp"
@@ -45,7 +45,7 @@ android:padding="10dp">
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@color/white"
+            android:background="@color/gray"
             android:hint="@string/hint_password"
             android:inputType="textPassword"
             android:padding="10dp"
@@ -73,7 +73,7 @@ android:padding="10dp">
         android:gravity="center_vertical"
 
         android:text="@string/remberMe"
-        android:textColor="@color/gray" />
+        android:textColor="@color/green" />
 
     <!-- Link to Login Screen -->
 

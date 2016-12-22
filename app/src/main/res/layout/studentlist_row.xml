@@ -8,7 +8,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="@drawable/inner_bg"
+
         android:padding="3dp" >
         
         <com.android.volley.toolbox.NetworkImageView

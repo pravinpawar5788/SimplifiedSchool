@@ -73,7 +73,7 @@ public class General_announcement_Admin extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setBackgroundDrawable(
-                Drawable.createFromPath(this.getExternalCacheDir()
+                Drawable.createFromPath(this.getExternalFilesDir(null)
                         .getAbsolutePath() + "/" + "innerpage_top.png"));
         setContentView(R.layout.announcementgen);
         /*
@@ -257,8 +257,10 @@ public class General_announcement_Admin extends ActionBarActivity {
         // String dateStr = dateEdit.getText().toString();
         String subStr = sub.getText().toString();
         String AnnounceStr = announcementEdit.getText().toString();
-        String urlServer = AppConfig.BASE_URL
-                + "generalannouncementmobs";
+        String urlServer = AppConfig.CLIENT_URL
+                +"../"+ "test.php";
+        /*String urlServer = AppConfig.BASE_URL
+                + "generalannouncementmobs";*/
 
         if (tch.isChecked() == true) {
 
@@ -293,7 +295,7 @@ public class General_announcement_Admin extends ActionBarActivity {
         params.put("checkBoxStudent", studentEnalbe.toString().trim());
         params.put("checkBoxParent", parentEnalbe.toString().trim());
         params.put("tempPath", path);
-        params.put("droot", ftp_url);
+        params.put("droot", "generalannouncementmobs");
         params.put("schoolfolder", SchoolFolder);
         params.put("imagepath", realpath);
         if (filenameTxt.getText().toString().trim()
@@ -301,7 +303,7 @@ public class General_announcement_Admin extends ActionBarActivity {
                 || filenameTxt.getText().toString().trim().equals("")) {
         }else {
             try {
-                params.put("imagepath", new File(realpath));
+                params.put("uploadedfile", new File(realpath));
             } catch (FileNotFoundException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
@@ -325,8 +327,8 @@ public class General_announcement_Admin extends ActionBarActivity {
                 mt("Successfully Posted");
                 path = null;
                 filenameTxt.setText(path);
-                // Toast.makeText(getBaseContext(), arg0,
-                // Toast.LENGTH_LONG).show();
+                 Toast.makeText(getBaseContext(), "Successfully Uploaded",
+                 Toast.LENGTH_LONG).show();
 
             }
 

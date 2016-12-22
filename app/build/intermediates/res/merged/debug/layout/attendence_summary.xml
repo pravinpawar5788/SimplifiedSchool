@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/inner_bg"
+    android:background="@drawable/content_page"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -23,7 +23,7 @@
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
-                android:text="Start Date"
+                android:text="@string/abc_start_date"
                 android:textSize="@dimen/font_size" />
 
             <EditText
@@ -56,7 +56,7 @@
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
-                android:text="End Date"
+                android:text="@string/abc_end_date"
                 android:textSize="@dimen/font_size" />
 
             <EditText
@@ -112,11 +112,101 @@
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/Button_height"
                 android:background="@drawable/positive_buttons"
-                android:text="Get Attendance Details"
+                android:text="@string/abc_get_atendance_details"
                 android:textColor="#FFFFFF" />
         </LinearLayout>
 
+
         <LinearLayout
+            android:id="@+id/listheader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="#68C78F"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/textRoll"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/Roll_NoTxt"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF" />
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textSFname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:layout_weight="1"
+                    android:focusableInTouchMode="true"
+                    android:gravity="left"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/StudentNameTxt"
+                    android:textColor="#FFFFFF" />
+            </HorizontalScrollView>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+
+
+                <TextView
+                    android:id="@+id/textOutOf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/AttendenceTxt"
+                    android:textColor="#FFFFFF"
+                     />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:paddingLeft="5dp"
+                android:scrollHorizontally="true"
+                android:textColor="#000000"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/remark"
+                android:layout_width="0dp"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:text="@string/abc_remark"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+        <!--<LinearLayout
             android:id="@+id/listheader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -127,12 +217,13 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:scrollHorizontally="true"
                 android:singleLine="true"
-                android:text="Roll.No"
+                android:layout_weight="1"
+                android:text="@string/abc_roll_no"
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -146,7 +237,8 @@
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Name"
+                android:text="@string/abc_name"
+                android:layout_weight="1"
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -159,6 +251,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_weight="1"
                 android:orientation="vertical" >
 
                 <TextView
@@ -168,7 +261,7 @@
                     android:gravity="center"
                     android:scrollHorizontally="true"
                     android:singleLine="true"
-                    android:text="Attendence"
+                    android:text="@string/AttendenceTxt"
                     android:textColor="#FFFFFF" />
 
                 <TextView
@@ -190,11 +283,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_weight="1"
                 android:scrollHorizontally="true"
                 android:singleLine="true"
-                android:text="Remarks"
+                android:text="@string/abc_remark"
                 android:textColor="#FFFFFF" />
-        </LinearLayout>
+        </LinearLayout>-->
 
         <LinearLayout
             android:layout_width="match_parent"

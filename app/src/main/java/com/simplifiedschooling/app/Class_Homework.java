@@ -110,7 +110,7 @@ public class Class_Homework extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setBackgroundDrawable(
-				Drawable.createFromPath(this.getExternalCacheDir()
+				Drawable.createFromPath(this.getExternalFilesDir(null)
 						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.classwork);
 		adapter = new ListAdapter(getApplicationContext());
@@ -218,11 +218,19 @@ public class Class_Homework extends ActionBarActivity {
 								String divname = c.getString("divname");
 								calssList.add(classname + " " + divname);
 								calssDivIdList.add(classdivid);
-								ArrayAdapter<String> classlistadapter = new ArrayAdapter<String>(
-										Class_Homework.this,
-										android.R.layout.simple_spinner_item,
-										calssList);
-								tclass.setAdapter(classlistadapter);
+								if(calssList.size()>0) {
+									ArrayAdapter<String> classlistadapter = new ArrayAdapter<String>(
+											Class_Homework.this,
+											android.R.layout.simple_spinner_item,
+											calssList);
+									tclass.setAdapter(classlistadapter);
+									classlistadapter.notifyDataSetChanged();
+								}else
+								{
+									Toast.makeText(getBaseContext(), "There is no class",
+											Toast.LENGTH_LONG).show();
+
+								}
 							}
 						} catch (JSONException e) {
 							e.printStackTrace();
@@ -269,9 +277,10 @@ public class Class_Homework extends ActionBarActivity {
 			} else
 
 			{
-
-				String urlServer = BASEURL
-						+ "homeworkmobacts";
+				String urlServer = AppConfig.CLIENT_URL
+						+"../"+ "test.php";
+				/*String urlServer = BASEURL
+						+ "homeworkmobacts";*/
 				int pos = tclass.getSelectedItemPosition();
 				int pos1 = tsubject.getSelectedItemPosition();
 				String classdiv = calssList.get(pos).toString();
@@ -285,7 +294,7 @@ public class Class_Homework extends ActionBarActivity {
 						.toString().trim());
 				//params1.put("ClassDivName", classdiv.toString());
 				params1.put("classId", classdivId.toString());
-				params1.put("droot", ftp_url);
+				params1.put("droot", "homeworkmobacts");
 				params1.put("schoolfolder", SchoolFolder);
 				params1.put("teacherid", id);
 				params1.put("subjectid", subjectId.toString());
@@ -296,7 +305,7 @@ public class Class_Homework extends ActionBarActivity {
 						|| filenameTxt.getText().toString().trim().equals("")) {
 				}else{
 				try {
-					params1.put("imagepath", new File(realpath));
+					params1.put("uploadedfile", new File(realpath));
 				} catch (FileNotFoundException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -316,8 +325,8 @@ public class Class_Homework extends ActionBarActivity {
 						submissionDate.setText("");
 						path = null;
 						filenameTxt.setText(path);
-						// Toast.makeText(getBaseContext(), arg0,
-						// Toast.LENGTH_LONG).show();
+						 Toast.makeText(getBaseContext(), "Successfully uploaded",
+						 Toast.LENGTH_LONG).show();
 
 					}
 

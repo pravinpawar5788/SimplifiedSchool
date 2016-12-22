@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="Announcement_EditText_width">200dp</dimen>
+    <dimen name="BackButton_height">35dp</dimen>
+    <dimen name="Button_height">25dp</dimen>
+    <dimen name="Button_text_size">24sp</dimen>
+    <dimen name="EditText_height">35dp</dimen>
+    <dimen name="EditText_width">150dp</dimen>
+    <dimen name="Footer_height">40dp</dimen>
+    <dimen name="Header_Width">200dp</dimen>
+    <dimen name="Header_height">50dp</dimen>
+    <dimen name="Reply_EditText_height">40dp</dimen>
+    <dimen name="Spinner_Height">35dp</dimen>
+    <dimen name="Spinner_Width">120dp</dimen>
+    <dimen name="Teaching_subject_List_Height">150dp</dimen>
+    <dimen name="TextView_width">100dp</dimen>
+    <dimen name="Text_size_footer">16sp</dimen>
+    <dimen name="User_image_height">50dp</dimen>
+    <dimen name="User_image_width">50dp</dimen>
     <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>
     <item name="abc_dialog_fixed_height_minor" type="dimen">90%</item>
     <item name="abc_dialog_fixed_width_major" type="dimen">50%</item>
     <item name="abc_dialog_fixed_width_minor" type="dimen">70%</item>
     <item name="abc_dialog_min_width_major" type="dimen">45%</item>
     <item name="abc_dialog_min_width_minor" type="dimen">72%</item>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="chekbox_text_size">28sp</dimen>
+    <dimen name="font_size">28sp</dimen>
+    <dimen name="gallery_image_height">120dp</dimen>
+    <dimen name="gallery_image_width">120dp</dimen>
+    <dimen name="gird_icon_heigth">100dp</dimen>
+    <dimen name="gird_icon_width">100dp</dimen>
+    <dimen name="signin_font">20sp</dimen>
+    <dimen name="user_image_height">150dp</dimen>
+    <dimen name="user_image_width">150dp</dimen>
 </resources>

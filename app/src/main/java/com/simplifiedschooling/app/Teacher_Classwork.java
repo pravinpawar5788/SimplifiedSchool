@@ -113,7 +113,7 @@ Teacher_Classwork extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setBackgroundDrawable(
-                Drawable.createFromPath(this.getExternalCacheDir()
+                Drawable.createFromPath(this.getExternalFilesDir(null)
                         .getAbsolutePath() + "/" + "innerpage_top.png"));
         setContentView(R.layout.classwork);
         adapter = new ListAdapter(getApplicationContext());
@@ -269,8 +269,10 @@ Teacher_Classwork extends ActionBarActivity {
 
             {
 
-                String urlServer = BASEURL
-                        + "classworkactmobs";
+               /* String urlServer = BASEURL
+                        + "classworkactmobs";*/
+                String urlServer = AppConfig.CLIENT_URL
+                        +"../"+ "test.php";
                 int pos = tclass.getSelectedItemPosition();
                 int pos1 = tsubject.getSelectedItemPosition();
                 String classdiv = calssList.get(pos).toString();
@@ -287,7 +289,7 @@ Teacher_Classwork extends ActionBarActivity {
                 params1.put("classId", classdivId.toString());
                // params1.put("SubjectName", subject.toString());
                 params1.put("subjectid", subjectId.toString());
-                params1.put("droot", ftp_url);
+                params1.put("droot", "classworkactmobs");
                 params1.put("schoolfolder", SchoolFolder);
                 params1.put("fstart", dateS1);
                 // here write your parameter name and its value
@@ -296,7 +298,7 @@ Teacher_Classwork extends ActionBarActivity {
                         || filenameTxt.getText().toString().trim().equals("")) {
                 } else {
                     try {
-                        params1.put("assignmentAttatchment", new File(realpath));
+                        params1.put("uploadedfile", new File(realpath));
                     } catch (FileNotFoundException e) {
                         // TODO Auto-generated catch block
                         e.printStackTrace();
@@ -316,8 +318,8 @@ Teacher_Classwork extends ActionBarActivity {
                         submissionDate.setText("");
                         path = null;
                         filenameTxt.setText(path);
-                        // Toast.makeText(getBaseContext(), arg0,
-                        // Toast.LENGTH_LONG).show();
+                         Toast.makeText(getBaseContext(), "Send Successfully",
+                         Toast.LENGTH_LONG).show();
 
                     }
 

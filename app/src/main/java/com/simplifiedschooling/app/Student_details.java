@@ -9,6 +9,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings.PluginState;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
 import com.simplifiedschooling.app.util.AppConfig;
 
 public class Student_details extends ActionBarActivity {
@@ -18,10 +19,10 @@ public class Student_details extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setBackgroundDrawable(
-                Drawable.createFromPath(this.getExternalCacheDir()
+                Drawable.createFromPath(this.getExternalFilesDir(null)
                         .getAbsolutePath() + "/" + "innerpage_top.png"));
         setContentView(R.layout.fragment_home);
         String id = getIntent().getExtras().getString("Student_Id");
@@ -66,7 +67,7 @@ public class Student_details extends ActionBarActivity {
                 try {
                     if (progressDialog.isShowing()) {
                         progressDialog.dismiss();
-                        progressDialog = null;
+                       // progressDialog = null;
                     }
                 } catch (Exception exception) {
                     exception.printStackTrace();

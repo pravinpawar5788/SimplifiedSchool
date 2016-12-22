@@ -48,7 +48,7 @@ public class AllStudentList extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setBackgroundDrawable(
-				Drawable.createFromPath(this.getExternalCacheDir()
+				Drawable.createFromPath(this.getExternalFilesDir(null)
 						.getAbsolutePath() + "/" + "innerpage_top.png"));
 		setContentView(R.layout.studentlist);
 		User_id = getIntent().getExtras().getString("userid");
@@ -118,11 +118,17 @@ public class AllStudentList extends ActionBarActivity {
 								String divname = c.getString("divname");
 								calssList.add(classname + " " + divname);
 								calssDivIdList.add(classdivid);
-								ArrayAdapter<String> classlistadapter = new ArrayAdapter<String>(
-										AllStudentList.this,
-										android.R.layout.simple_spinner_item,
-										calssList);
-								tclass.setAdapter(classlistadapter);
+								if(calssList.size()>0) {
+									ArrayAdapter<String> classlistadapter = new ArrayAdapter<String>(
+											AllStudentList.this,
+											android.R.layout.simple_spinner_item,
+											calssList);
+									tclass.setAdapter(classlistadapter);
+									classlistadapter.notifyDataSetChanged();
+								}else{
+									Toast.makeText(getApplicationContext(),
+											"There is no class", Toast.LENGTH_LONG).show();
+								}
 							}
 						} catch (JSONException e) {
 							e.printStackTrace();
